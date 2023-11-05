@@ -1,0 +1,11 @@
+start_station_name,start_station_id,count(ride_id),start_lat,start_lng
+Lake Shore Dr & Monroe St,268,675769,41.91,-87.62
+Streeter Dr & Grand Ave,35,83288,41.8923,-87.6123
+Michigan Ave & Oak St,85,45698,41.901,-87.6237
+Wells St & Concord Ln,289,44655,41.912,-87.6348
+Clark St & Elm St,176,43137,41.9028,-87.6318
+Millennium Park,90,43108,41.8811,-87.6241
+Theater on the Lake,177,38813,41.9263,-87.631
+Wells St & Elm St,182,38776,41.9033,-87.6346
+Clark St & Lincoln Ave,141,34434,41.9158,-87.6347
+Kingsbury St & Kinzie St,133,34417,41.8892,-87.6387
