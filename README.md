@@ -87,14 +87,14 @@ Q1. What is the total number of rides for all trips and by riders type?
 Total Rides - 5,738,812
 Annaul Members - 3,161,366
 Casual Riders - 2,577,446
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Member.png)
 We see that annual members make up about 55% of the total number of rides, while casual 45%.
 
 Q2. On average, how long do riders rent out the bicycles?
 All riders have an average duration of about 20 minutes and 8 secs.
 Here members spends lesser times of 11:02 while casual riders spend about 31:17.
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/ride%20duration.jpg)
 
 The average ride duration gives us a base to make some assumptions on bike usage on the riders.
 Some assumptions we can make from this:
@@ -106,7 +106,7 @@ Preferred Day of the Week - Saturday
 Annual Members - Wednesday
 Casual Riders - Saturday
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20day%20of%20week%20BY%20(cm).png)
 
 This analysis can help back my assumption that:
     - For annual members, we see a consistent usage of bicycles all week long significantly during the weekdays. 
@@ -118,12 +118,12 @@ Preferred Month - July
 Annual Members - September
 Casual Riders - July
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20per%20month.png)
 
 For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. 
 Generally we see the largest portion of our rides in the summer, accounting for 54.24% of all rides taken all year. This is becauase the weather is much warmer during this period and everyone is out and about then.
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Month.png)
 
 Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year longas compared to casual riders.
 
@@ -132,14 +132,12 @@ Preferred Start Station - Lake Shore Dr & Monroe St
 Annual Members - Kostner Ave & Lake St 
 Casual Riders - Lake Shore Dr & North Blvd
 
-![Alt Text]()
-
 The preferred start station is located along the coastline of Chicago, this is a perfect place to go for a bike ride. But we can further analyze the start station better, according to the rider group.
     - The top start station for members is located inside the city, concluding that majority of the rides are used for day-to-day tasks.
-    ![Alt Text]()
+    ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/(CM)%20top%2010%20start%20-%20members.png)
 
     - For casual riders, the most used start station is along the beach or coastline.
-    ![Alt Text]()
+    ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/(C)%20top%2010%20start%20-%20casuals.png)
 
 
 Q6. What station are riders choosing as their end destination?
@@ -150,10 +148,10 @@ Casual Riders - Lake Shore Dr & North Blvd
 The preferred end station, Lake Shore Dr & Monroe St is also riders preferred start station. We can conclude that it is the company's must used station.
 
 For annual members, the most popular destination, Kedzie Ave & Foster Ave is also located inside the city.
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Top%2010%20End%20-%20Members.png)
 
 But for casual riders, it remaains the same as the start station along the coastline. So a partial assumption we can make is that, most casual riders prefer starting and ending at the same destination station. We need to make further analysis to come to a conclusion.
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/(C)%20Top%2010%20End%20-%20Casuals.png)
 
 Q7. What are the top 10 start and end stations?
 
@@ -168,7 +166,7 @@ Theater on the Lake
 Wells St & Elm St
 Clark St & Lincoln Ave
 Kingsbury St & Kinzie St
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Start%20Station.png)
 
 Top 10 End Stations:
 Lake Shore Dr & Monroe St
@@ -181,21 +179,23 @@ Theater on the Lake
 Wells St & Elm St
 Wabash Ave & Grand Ave
 Clark St & Lincoln Ave
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/End%20Station.png)
 
 Q8. Which bicycle type do riders prefer?
 Preferred Bike Type - Classic Bike
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Number%20of%20Rides%20by%20Bike%20Type.png)
 
 
 # Data Visualization
-For this project, we shall be presenting our findings in a Tableau [dashboard](). We create three dashboards, one to give an overview of all findings, ideal for a staekholder presentation and the other two, a breakdown for annual members and casual riders.
+For this project, we shall be presenting our findings in a Tableau [dashboard](https://public.tableau.com/views/UsersPerformanceDashboardGoogleCapstone/MainDashboard?:language=en-US&:display_count=n&:origin=viz_share_link). We create three dashboards, one to give an overview of all findings, ideal for a staekholder presentation and the other two, a breakdown for annual members and casual riders.
 
 Stakeholder Dashboard:
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Main%20Dashboard.png)
 
 Annual Members Dashboard:
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Members.png)
 
 Casual Riders Dashbaord:
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
+
+# Conclusion/Findings
