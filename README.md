@@ -62,7 +62,8 @@ Our data cleaning for this project involved:
 
     - Deleting Trips with a Duration of 0 or less than 0 seconds: Ride length can only be postive for the trip to have occured. So any trip with a duration less than or equal 0 seconds is deleted from the dataset.
 
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/data%20cleaning.jpg) 
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/data%20cleaning.jpg)
+
 **Figure 3: Data Cleaning**
 
 At the end of cleaning, we 5,738,312 rides ready for analysis.
@@ -83,12 +84,14 @@ My aim in the anaysis stage is to answer the following questions:
 
 You can find all the SQL queries ran to answer these questions here: [SQL Queries](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Cyclistic.sql)
 
+
 Q1. What is the total number of rides for all trips and by riders type?
 Total Rides - 5,738,812
 Annaul Members - 3,161,366
 Casual Riders - 2,577,446
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Member.png)
 We see that annual members make up about 55% of the total number of rides, while casual 45%.
+
 
 Q2. On average, how long do riders rent out the bicycles?
 All riders have an average duration of about 20 minutes and 8 secs.
@@ -101,6 +104,7 @@ Some assumptions we can make from this:
     - annual members could be using the bicycles to perform daily tasks, such as commute to work, grocery shopping and as an alternate to having a car.
     - While casual riders use for leisure purposes, who spend more time renting bicycles could potentially by tourists exploring the city, moving across various POIs in the city, or just going on casual bike rides with friends.
 
+
 Q3. What day of the week do riders prefer?
 Preferred Day of the Week - Saturday
 Annual Members - Wednesday
@@ -111,6 +115,7 @@ Casual Riders - Saturday
 This analysis can help back my assumption that:
     - For annual members, we see a consistent usage of bicycles all week long significantly during the weekdays. 
     - Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
+
 
 Q4. How do riders use the bicycles all year long?
 
@@ -127,6 +132,7 @@ Generally we see the largest portion of our rides in the summer, accounting for 
 
 Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year longas compared to casual riders.
 
+
 Q5. What station are riders choosing to start trips from?
 Preferred Start Station - Lake Shore Dr & Monroe St
 Annual Members - Kostner Ave & Lake St 
@@ -135,7 +141,6 @@ Casual Riders - Lake Shore Dr & North Blvd
 The preferred start station is located along the coastline of Chicago, this is a perfect place to go for a bike ride. But we can further analyze the start station better, according to the rider group.
     - The top start station for members is located inside the city, concluding that majority of the rides are used for day-to-day tasks.
     ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/(CM)%20top%2010%20start%20-%20members.png)
-
     - For casual riders, the most used start station is along the beach or coastline.
     ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/(C)%20top%2010%20start%20-%20casuals.png)
 
