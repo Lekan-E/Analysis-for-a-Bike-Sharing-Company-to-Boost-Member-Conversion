@@ -6,12 +6,15 @@ This is a case-study for a bike-sharing company with a fleet of 5,824 bicycles i
 The company provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes.
 
 # Businesss Task
-The director of marketing has tasked me to come up with startegies aimed at converting exisiting casual riders to annual members. To do that the marketing team needs to better understand riders differ.
+The director of marketing has tasked me to come up with strategies aimed at converting exisiting casual riders to annual members. To do that the marketing team needs to better understand riders differ.
 For us to achieve this, we need to study both customer's needs, behaviours and understand the pattern. This involves studying:
     - Bicycle Preference
     - Day of the Week Preference
     - Start and End Station
     - What season of the year riders prefer
+
+I will be presenting the findings with three dashboards using Tableau, a JPG of the dashboard sheets will be provided below.
+
 
 # Dataset/Data Background
 The dataset was provided in the Google Data Analytics Capstone Project.
@@ -56,12 +59,143 @@ From this view, we can further breakdown the table into smaller tables. Working 
 The last and most important step before analysis is data cleaning.
 Our data cleaning for this project involved:
     - Updating Missing Station Info: This process involved updating station names by finding the information from their unique ids and also using the longitude and latitude position. Using latitude and longitude we updated numerics to 3 decimal places, from there we can easily find and update the missing station names, which will be important in our analysis later on.
+
     - Deleting Trips with a Duration of 0 or less than 0 seconds: Ride length can only be postive for the trip to have occured. So any trip with a duration less than or equal 0 seconds is deleted from the dataset.
-    
+
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/data%20cleaning.jpg) 
+**Figure 3: Data Cleaning**
+
 At the end of cleaning, we 5,738,312 rides ready for analysis.
 
-which is heavly influenced by the factors which will be analysis in this project
-A customer comparative analysis project to help a cycling company 
-understand how and suggest a marketing strategy to convert casual riders to annual members.
+# Data Analysis
+Now that our raw dataset has been cleaned, we can start with our data analysis. The analysis will be done for all rides, which is ideal for stakeholders. Then we perform further analysis to study annual members and casual riders.
+My aim in the anaysis stage is to answer the following questions:
 
-and over 5 million yeary rides.
+    1. What is the total number of rides for all trips and by riders type?
+    2. On average, how long do riders rent out the bicycles?
+    3. What day of the week do riders prefer?
+    4. How do riders use the bicycles all year long?
+    5. What station are riders choosing to start trips from?
+    6. What station are riders choosing as their end destination?
+    7. What are the top 10 start and end stations?
+    8. Which bicycle type do riders prefer?
+
+
+You can find all the SQL queries ran to answer these questions here: [SQL Queries](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Cyclistic.sql)
+
+Q1. What is the total number of rides for all trips and by riders type?
+Total Rides - 5,738,812
+Annaul Members - 3,161,366
+Casual Riders - 2,577,446
+![Alt Text]()
+We see that annual members make up about 55% of the total number of rides, while casual 45%.
+
+Q2. On average, how long do riders rent out the bicycles?
+All riders have an average duration of about 20 minutes and 8 secs.
+Here members spends lesser times of 11:02 while casual riders spend about 31:17.
+
+![Alt Text]()
+
+The average ride duration gives us a base to make some assumptions on bike usage on the riders.
+Some assumptions we can make from this:
+    - annual members could be using the bicycles to perform daily tasks, such as commute to work, grocery shopping and as an alternate to having a car.
+    - While casual riders use for leisure purposes, who spend more time renting bicycles could potentially by tourists exploring the city, moving across various POIs in the city, or just going on casual bike rides with friends.
+
+Q3. What day of the week do riders prefer?
+Preferred Day of the Week - Saturday
+Annual Members - Wednesday
+Casual Riders - Saturday
+
+![Alt Text]()
+
+This analysis can help back my assumption that:
+    - For annual members, we see a consistent usage of bicycles all week long significantly during the weekdays. 
+    - Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
+
+Q4. How do riders use the bicycles all year long?
+
+Preferred Month - July
+Annual Members - September
+Casual Riders - July
+
+![Alt Text]()
+
+For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. 
+Generally we see the largest portion of our rides in the summer, accounting for 54.24% of all rides taken all year. This is becauase the weather is much warmer during this period and everyone is out and about then.
+
+![Alt Text]()
+
+Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year longas compared to casual riders.
+
+Q5. What station are riders choosing to start trips from?
+Preferred Start Station - Lake Shore Dr & Monroe St
+Annual Members - Kostner Ave & Lake St 
+Casual Riders - Lake Shore Dr & North Blvd
+
+![Alt Text]()
+
+The preferred start station is located along the coastline of Chicago, this is a perfect place to go for a bike ride. But we can further analyze the start station better, according to the rider group.
+    - The top start station for members is located inside the city, concluding that majority of the rides are used for day-to-day tasks.
+    ![Alt Text]()
+
+    - For casual riders, the most used start station is along the beach or coastline.
+    ![Alt Text]()
+
+
+Q6. What station are riders choosing as their end destination?
+Preferred Destination Station - Lake Shore Dr & Monroe St
+Annual Members - Kedzie Ave & Foster Ave
+Casual Riders - Lake Shore Dr & North Blvd
+
+The preferred end station, Lake Shore Dr & Monroe St is also riders preferred start station. We can conclude that it is the company's must used station.
+
+For annual members, the most popular destination, Kedzie Ave & Foster Ave is also located inside the city.
+![Alt Text]()
+
+But for casual riders, it remaains the same as the start station along the coastline. So a partial assumption we can make is that, most casual riders prefer starting and ending at the same destination station. We need to make further analysis to come to a conclusion.
+![Alt Text]()
+
+Q7. What are the top 10 start and end stations?
+
+Top 10 Start Stations:
+Lake Shore Dr & Monroe St
+Streeter Dr & Grand Ave
+Michigan Ave & Oak St
+Wells St & Concord Ln
+Clark St & Elm St
+Millennium Park
+Theater on the Lake
+Wells St & Elm St
+Clark St & Lincoln Ave
+Kingsbury St & Kinzie St
+![Alt Text]()
+
+Top 10 End Stations:
+Lake Shore Dr & Monroe St
+Streeter Dr & Grand Ave
+Michigan Ave & Oak St
+Wells St & Concord Ln
+Millennium Park
+Clark St & Elm St
+Theater on the Lake
+Wells St & Elm St
+Wabash Ave & Grand Ave
+Clark St & Lincoln Ave
+![Alt Text]()
+
+Q8. Which bicycle type do riders prefer?
+Preferred Bike Type - Classic Bike
+![Alt Text]()
+
+
+# Data Visualization
+For this project, we shall be presenting our findings in a Tableau [dashboard](). We create three dashboards, one to give an overview of all findings, ideal for a staekholder presentation and the other two, a breakdown for annual members and casual riders.
+
+Stakeholder Dashboard:
+![Alt Text]()
+
+Annual Members Dashboard:
+![Alt Text]()
+
+Casual Riders Dashbaord:
+![Alt Text]()
