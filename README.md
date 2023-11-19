@@ -42,12 +42,23 @@ After performing this process on all 13 months dataset, I import the data into M
 
 ![Alt text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/import%20tables.jpg)
 
-**Figure 2: Loading Tables into SQL Workbench
+**Figure 1: Loading Tables into SQL Workbench**
 
-After loading all tables into SQL, I create a SQL View 'v_all_months' to combine all tables into a single sheet. (A SQL View is a virtual table whose contents are obtained from an existing table called a base table.)
+After loading all tables into SQL, I create a SQL View 'v_all_months' to combine all 13 tables into a single sheet. (A SQL View is a virtual table whose contents are obtained from an existing table called a base table.)
 
-From this new view, we can breakdown the table into smaller tables.
+From this view, we can further breakdown the table into smaller tables. Working with smaller tables helps us with running queries and for data cleaning.
 
+![Alt text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/schema.jpg)
+**Figure 2: Table Schema**
+
+
+# Data Cleaning
+The last and most important step before analysis is data cleaning.
+Our data cleaning for this project involved:
+    - Updating Missing Station Info: This process involved updating station names by finding the information from their unique ids and also using the longitude and latitude position. Using latitude and longitude we updated numerics to 3 decimal places, from there we can easily find and update the missing station names, which will be important in our analysis later on.
+    - Deleting Trips with a Duration of 0 or less than 0 seconds: Ride length can only be postive for the trip to have occured. So any trip with a duration less than or equal 0 seconds is deleted from the dataset.
+    
+At the end of cleaning, we 5,738,312 rides ready for analysis.
 
 which is heavly influenced by the factors which will be analysis in this project
 A customer comparative analysis project to help a cycling company 
