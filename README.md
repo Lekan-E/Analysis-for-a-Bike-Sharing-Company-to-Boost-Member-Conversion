@@ -40,8 +40,13 @@ From the start date and time, we can get information on the month and year (mont
 
 After performing this process on all 13 months dataset, I import the data into MySQL Workbench for further data preparation by creating the table sturcture and loading the .csv files using the below process. 
 
-![Alt text]()
+![Alt text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/import%20tables.jpg)
 
+**Figure 2: Loading Tables into SQL Workbench
+
+After loading all tables into SQL, I create a SQL View 'v_all_months' to combine all tables into a single sheet. (A SQL View is a virtual table whose contents are obtained from an existing table called a base table.)
+
+From this new view, we can breakdown the table into smaller tables.
 
 
 which is heavly influenced by the factors which will be analysis in this project
