@@ -1,11 +1,11 @@
 # Comparative-Analysis-Project
  A customer analysis dashboard for a bike-sharing company to better understand how members and casual riders uses the bike and differ.
 
- # Overview
-This is a case-study for a bike-sharing company with a fleet of 5,824 bicycles including (Electric, Classic and Docked Bikes) which are located in a network of 692 stations across Chicago. Bicycles can begin at a station and be returned to any station.
-The company provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes.
+## Overview
+This is a case-study for a bike-sharing company with a fleet of 5,824 bicycles including (Electric, Classic and Docked Bikes) which are located in a network of 692 stations across Chicago. Bicycles can begin at a station and be returned to any station. <br />
+The company provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes. <br />
 
-# Businesss Task
+## Businesss Task
 The director of marketing has tasked me to come up with strategies aimed at converting exisiting casual riders to annual members. To do that the marketing team needs to better understand riders differ.
 For us to achieve this, we need to study both customer's needs, behaviours and understand the pattern. This involves studying:
     - Bicycle Preference
@@ -16,8 +16,8 @@ For us to achieve this, we need to study both customer's needs, behaviours and u
 I will be presenting the findings with three dashboards using Tableau, a JPG of the dashboard sheets will be provided below.
 
 
-# Dataset/Data Background
-The dataset was provided in the Google Data Analytics Capstone Project.
+## Dataset/Data Background
+The dataset was provided in the Google Data Analytics Capstone Project. <br />
 It includes a month-month dataset for a year, running from Nov. 2020 - Nov. 2021 in .csv format.
 Each sheet includes ride information for each month, providing:
     - A unique ride id - ride_id
@@ -36,7 +36,7 @@ Each sheet includes ride information for each month, providing:
 
 **** insert diagram
 
-# Data Preparation
+## Data Preparation
 My first step of data preparation was to extract more data from the raw dataset to help our analysis. For this I utilised Microsoft Excel Power Query importing all 13 months data set. 
 
 From the start date and time, we can get information on the month and year (month_year), day of the week (day_of_week) where the ride started. And with the ended_at, we can get the ride duration (ride_length) = [ended_at - started_at].
@@ -55,7 +55,7 @@ From this view, we can further breakdown the table into smaller tables. Working 
 **Figure 2: Table Schema**
 
 
-# Data Cleaning
+## Data Cleaning
 The last and most important step before analysis is data cleaning.
 Our data cleaning for this project involved:
     - Updating Missing Station Info: This process involved updating station names by finding the information from their unique ids and also using the longitude and latitude position. Using latitude and longitude we updated numerics to 3 decimal places, from there we can easily find and update the missing station names, which will be important in our analysis later on.
@@ -68,7 +68,7 @@ Our data cleaning for this project involved:
 
 At the end of cleaning, we 5,738,312 rides ready for analysis.
 
-# Data Analysis
+## Data Analysis
 Now that our raw dataset has been cleaned, we can start with our data analysis. The analysis will be done for all rides, which is ideal for stakeholders. Then we perform further analysis to study annual members and casual riders.
 My aim in the anaysis stage is to answer the following questions:
 
@@ -191,7 +191,8 @@ Preferred Bike Type - Classic Bike
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Number%20of%20Rides%20by%20Bike%20Type.png)
 
 
-# Data Visualization
+## Data Visualization
+
 For this project, we shall be presenting our findings in a Tableau [dashboard](https://public.tableau.com/views/UsersPerformanceDashboardGoogleCapstone/MainDashboard?:language=en-US&:display_count=n&:origin=viz_share_link). We create three dashboards, one to give an overview of all findings, ideal for a staekholder presentation and the other two, a breakdown for annual members and casual riders.
 
 Stakeholder Dashboard:
@@ -203,4 +204,4 @@ Annual Members Dashboard:
 Casual Riders Dashbaord:
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
 
-# Conclusion/Findings
+## Conclusion/Findings
