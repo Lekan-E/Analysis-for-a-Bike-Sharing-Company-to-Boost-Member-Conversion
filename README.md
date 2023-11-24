@@ -204,3 +204,8 @@ Casual Riders Dashbaord:
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
 
 # Conclusion/Findings
+
+
+# Improvement
+
+The average ride length values was calculated using the mean/average, rather we should use the median. The reason for using the meadian and not the mean is that we don't want outliers to unduly affect the portrayau of the users. 
