@@ -58,9 +58,9 @@ From this view, we can further breakdown the table into smaller tables. Working 
 ## Data Cleaning
 The last and most important step before analysis is data cleaning.
 Our data cleaning for this project involved:
-    - Updating Missing Station Info: This process involved updating station names by finding the information from their unique ids and also using the longitude and latitude position. Using latitude and longitude we updated numerics to 3 decimal places, from there we can easily find and update the missing station names, which will be important in our analysis later on.
+- Updating Missing Station Info: This process involved updating station names by finding the information from their unique ids and also using the longitude and latitude position. Using latitude and longitude we updated numerics to 3 decimal places, from there we can easily find and update the missing station names, which will be important in our analysis later on.
 
-    - Deleting Trips with a Duration of 0 or less than 0 seconds: Ride length can only be postive for the trip to have occured. So any trip with a duration less than or equal 0 seconds is deleted from the dataset.
+- Deleting Trips with a Duration of 0 or less than 0 seconds: Ride length can only be postive for the trip to have occured. So any trip with a duration less than or equal 0 seconds is deleted from the dataset.
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/data%20cleaning.jpg)
 
@@ -99,10 +99,10 @@ Here members spends lesser times of 11:02 while casual riders spend about 31:17.
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/ride%20duration.jpg)
 
-The average ride duration gives us a base to make some assumptions on bike usage on the riders.
+The average ride duration gives us a base to make some assumptions on bike usage on the riders. <br />
 Some assumptions we can make from this:
-    - annual members could be using the bicycles to perform daily tasks, such as commute to work, grocery shopping and as an alternate to having a car.
-    - While casual riders use for leisure purposes, who spend more time renting bicycles could potentially by tourists exploring the city, moving across various POIs in the city, or just going on casual bike rides with friends.
+- annual members could be using the bicycles to perform daily tasks, such as commute to work, grocery shopping and as an alternate to having a car.
+- While casual riders use for leisure purposes, who spend more time renting bicycles could potentially by tourists exploring the city, moving across various POIs in the city, or just going on casual bike rides with friends.
 
 
 Q3. What day of the week do riders prefer?
@@ -134,6 +134,7 @@ Looking at the lines for each ride group, the summer months are the preferred se
 
 
 Q5. What station are riders choosing to start trips from?
+
 Preferred Start Station - Lake Shore Dr & Monroe St
 Annual Members - Kostner Ave & Lake St 
 Casual Riders - Lake Shore Dr & North Blvd
@@ -146,6 +147,7 @@ The preferred start station is located along the coastline of Chicago, this is a
 
 
 Q6. What station are riders choosing as their end destination?
+
 Preferred Destination Station - Lake Shore Dr & Monroe St
 Annual Members - Kedzie Ave & Foster Ave
 Casual Riders - Lake Shore Dr & North Blvd
@@ -157,6 +159,7 @@ For annual members, the most popular destination, Kedzie Ave & Foster Ave is als
 
 But for casual riders, it remaains the same as the start station along the coastline. So a partial assumption we can make is that, most casual riders prefer starting and ending at the same destination station. We need to make further analysis to come to a conclusion.
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/(C)%20Top%2010%20End%20-%20Casuals.png)
+
 
 Q7. What are the top 10 start and end stations?
 
@@ -186,7 +189,9 @@ Wabash Ave & Grand Ave
 Clark St & Lincoln Ave
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/End%20Station.png)
 
+
 Q8. Which bicycle type do riders prefer?
+
 Preferred Bike Type - Classic Bike
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Number%20of%20Rides%20by%20Bike%20Type.png)
 
