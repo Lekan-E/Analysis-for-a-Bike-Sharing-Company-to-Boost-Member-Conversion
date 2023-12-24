@@ -14,6 +14,7 @@ This involves studying:
 * Start and End Station
 * Bike Preference
 <br />
+
 I will be providng data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
 
 ## Methodology
@@ -25,10 +26,6 @@ The libraries used on this project include:
 * Plotly, Matplotlib and Seaborn – For all visualizations (including maps and graphs)
 * Geopy – To calcuate distance between positions
 * Scipy - To check and improve skewness
-
-Data Preparation
-
-
 
 
 ## Dataset
