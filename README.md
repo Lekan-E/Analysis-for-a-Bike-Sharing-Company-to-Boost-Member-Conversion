@@ -1,24 +1,37 @@
 # Comparative-Analysis-Project
- A customer analysis dashboard for a bike-sharing company to better understand how members and casual riders uses the bike and differ.
+A customer analysis dashboard for a bike-sharing company to better understand how members and casual riders uses the bike and differ.
 
 ## Overview
 This is a case-study for a bike-sharing company with a fleet of 5,824 bicycles including (Electric, Classic and Docked Bikes) which are located in a network of 692 stations across Chicago. Bicycles can begin at a station and be returned to any station. <br />
 The company provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes. <br />
 
 ## Businesss Task
-The director of marketing has tasked me to come up with strategies aimed at converting exisiting casual riders to annual members. To do that the marketing team needs to better understand riders differ.
-For us to achieve this, we need to study both customer's needs, behaviours and understand the pattern. This involves studying:
+The director of marketing has tasked me to come up with strategies aimed at converting exisiting casual riders to annual members. To do that the marketing team needs to better understand riders differ. For us to achieve this, we need to study both customer's needs, behaviours and understand the pattern. <br />
+This involves studying:
 * Number of Trips
 * Duration of Rides
 * Time Preference by - Month, Week and Time of Day
 * Start and End Station
 * Bike Preference
+<br />
+I will be providng data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
+
+## Methodology
+### Python Libraries
+The libraries used on this project include:
+* Pandas – For storing and manipulating structured data. Pandas functionality is built on NumPy
+* Numpy – For multi-dimensional array, matrix data structures and, performing mathematical operations
+* Datetime -  To extract date and time information
+* Plotly, Matplotlib and Seaborn – For all visualizations (including maps and graphs)
+* Geopy – To calcuate distance between positions
+* Scipy - To check and improve skewness
+
+Data Preparation
 
 
-I will be provinidng data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
 
 
-## Dataset/Data Background
+## Dataset
 The dataset was provided in the Google Data Analytics Capstone Project. <br />
 It includes a month-month dataset for a year, running from Nov. 2020 - Nov. 2021 in .csv format.
 Each sheet includes ride information for each month, providing:
@@ -36,7 +49,7 @@ Each sheet includes ride information for each month, providing:
 * End Station Longitude - end_lng
 * Member Type - member_casual
 
-**** insert diagram
+## 
 
 ## Data Preparation
 My first step of data preparation was to extract more data from the raw dataset to help our analysis. For this I utilised Microsoft Excel Power Query importing all 13 months data set. 
