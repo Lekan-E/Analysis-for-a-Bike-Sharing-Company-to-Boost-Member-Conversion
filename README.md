@@ -16,6 +16,7 @@ This involves studying:
 <br />
 
 I will be providng data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
+Check out the Jupyter Notebook for an in-depth breakdown of the codes used in our analysis.
 
 ## Methodology
 ### Python Libraries
@@ -27,11 +28,8 @@ The libraries used on this project include:
 * Geopy – To calcuate distance between positions
 * Scipy - To check and improve skewness
 
-
 ## Dataset
-The dataset was provided in the Google Data Analytics Capstone Project. <br />
-It includes a month-month dataset for a year, running from Nov. 2020 - Nov. 2021 in .csv format.
-Each sheet includes ride information for each month, providing:
+The dataset was provided in the Google Data Analytics Capstone Project. It includes a month-month dataset for a year, running from Nov. 2020 - Nov. 2021 in .csv format. Each sheet includes ride information for each month, providing:
 * A unique ride id - ride_id
 * Bike Type - rideable_type
 * Start Date and Time - started_at
@@ -46,10 +44,34 @@ Each sheet includes ride information for each month, providing:
 * End Station Longitude - end_lng
 * Member Type - member_casual
 
-## 
-
 ## Data Preparation
-My first step of data preparation was to extract more data from the raw dataset to help our analysis. For this I utilised Microsoft Excel Power Query importing all 13 months data set. 
+My first step of data preparation was to import all data and combine all into a single table using Pandas import read_csv and concat functions.
+![Alt text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/Screenshot%202023-12-24%20at%201.40.47%E2%80%AFPM.png)
+
+We then explore our dataset using the following pandas functions:
+* df_months.info() - Display the number of rows, row names and the row type
+* df_months.describe() - Get Descriptive stats of the dataframe
+* df_months.sample() - Explore rows in the dataframe using sample, to randomize the outcome
+* df_months.shape - Get the total number of rows and columns
+
+After data exploration, we begin prepocessing our dataset. <br />
+
+## Data Preprocessing
+This process involves creating and extracting new fields from our dataset. We achieved these using the following steps below:
+1. Convert 'started_at' and 'ended_at' into a datetime type using pandas function.
+2. Calculate 'ride_duration' = 'ended_at' - 'started_at' and convert the field to seconds using datetime function.
+3. Extract the start and end times using datetime functions - dt.strftime.
+4. Extract the day and month/year name 
+5. Given the start and end latitude and longitude, we join them into a list as start and end positions.
+6. With the start and end positions, we write a function to calculate each trips distance. <br />
+
+Now we begin data cleaning.
+
+## Data Cleaning
+This process is divided into two parts:
+* Eliminate bad data:
+
+* Remove outliers
 
 From the start date and time, we can get information on the month and year (month_year), day of the week (day_of_week) where the ride started. And with the ended_at, we can get the ride duration (ride_length) = [ended_at - started_at].
 
