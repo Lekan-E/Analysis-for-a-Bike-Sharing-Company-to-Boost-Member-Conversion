@@ -8,31 +8,33 @@ The company provides bicycles to annual members and casual riders which come as 
 ## Businesss Task
 The director of marketing has tasked me to come up with strategies aimed at converting exisiting casual riders to annual members. To do that the marketing team needs to better understand riders differ.
 For us to achieve this, we need to study both customer's needs, behaviours and understand the pattern. This involves studying:
-    - Bicycle Preference
-    - Day of the Week Preference
-    - Start and End Station
-    - What season of the year riders prefer
+* Number of Trips
+* Duration of Rides
+* Time Preference by - Month, Week and Time of Day
+* Start and End Station
+* Bike Preference
 
-I will be presenting the findings with three dashboards using Tableau, a JPG of the dashboard sheets will be provided below.
+
+I will be provinidng data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
 
 
 ## Dataset/Data Background
 The dataset was provided in the Google Data Analytics Capstone Project. <br />
 It includes a month-month dataset for a year, running from Nov. 2020 - Nov. 2021 in .csv format.
 Each sheet includes ride information for each month, providing:
-    - A unique ride id - ride_id
-    - Bike Type - rideable_type
-    - Start Date and Time - started_at
-    - End Date and Time - ended_at
-    - Start Station - start_station_name
-    - start_station_id
-    - End Station - end_station_name
-    - end_Station_id
-    - Start Station Latitude - start_lat
-    - Start Station Longitude - start_lng
-    - End Station Latitude - end_lat
-    - End Station Longitude - end_lng
-    - Member Type - member_casual
+* A unique ride id - ride_id
+* Bike Type - rideable_type
+* Start Date and Time - started_at
+* End Date and Time - ended_at
+* Start Station - start_station_name
+* start_station_id
+* End Station - end_station_name
+* end_Station_id
+* Start Station Latitude - start_lat
+* Start Station Longitude - start_lng
+* End Station Latitude - end_lat
+* End Station Longitude - end_lng
+* Member Type - member_casual
 
 **** insert diagram
 
