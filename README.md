@@ -121,12 +121,11 @@ Casual Riders - 21:20 <br/>
 3. Ride Preference by - Month-Month, Week and Time of Day <br/>
 
 ## Yearly Trend
-Looking at the ride trend line each month of the year in the graph below, we can conclude that the summer months is the peak season.
+Looking at the ride trend line each month of the year in the graph below, we can conclude that the summer months is the peak season.<br/>
+Preferred Month - July<br/>
+Annual Members - September<br/>
+Casual Riders - July<br/>
 
-Preferred Month - July
-Annual Members - September
-Casual Riders - July
-<br/>
 For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. 
 Generally we see the largest portion of our rides in the summer, accounting for 54.24% of all rides taken all year. This is becauase the weather is much warmer during this period and everyone is out and about then. <br/>
 Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year longas compared to casual riders. <br/>
