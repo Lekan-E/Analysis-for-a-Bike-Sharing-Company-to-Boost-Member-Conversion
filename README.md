@@ -73,17 +73,17 @@ Now we begin data cleaning.
 ## Data Cleaning
 This process is divided into two parts:
 
-* Eliminate bad data:
+1. Eliminate bad data:
 The conditions we set to filter out bad data is: 
-1. Ride Duration <= 0 seconds
-2. Trip Distance < 0 kilometers
+* Ride Duration <= 0 seconds
+* Trip Distance < 0 kilometers
 
-* Remove outliers:
+2. Remove outliers:
 Our focus on dropping outliers was on the ride durations(s) using the below steps:
-1. Plot a box-plot to show the distribution of our time data.
-2. Find the appropriate percentile (For this I decided to go with the 95th percentile because it gives a better representation of our data)
-3. Get the upper and lower limit
-4. Filter out data below the lower limit and above the upper limit.
+* Plot a box-plot to show the distribution of our time data.
+* Find the appropriate percentile (For this I decided to go with the 95th percentile because it gives a better representation of our data)
+* Get the upper and lower limit
+* Filter out data below the lower limit and above the upper limit.
 
 After data cleaning, we dropped bad data from 5738812 to 5137290 rides.
 
@@ -105,21 +105,20 @@ My aim in the anaysis stage is to answer the following questions:
     7. Which bicycle type do riders prefer?
 
 
-1. Number of Trips
+1. Number of Trips <br/>
 After cleaning our dataset, we have: <br/>
-Total Rides -  5,137,290
-Annual Members - 2,885,196
-Casual Riders - 2,252,094
+Total Rides -  5,137,290 <br/>
+Annual Members - 2,885,196 <br/>
+Casual Riders - 2,252,094 <br/>
 
-2. Duration of Rides
+2. Duration of Rides <br/>
 We show the average ride duration for each rider type. <br/>
-
-Total Average Ride Duration - 17:38
-Annual Members - 12:57
-Casual Riders - 21:20
+Total Average Ride Duration - 17:38 <br/>
+Annual Members - 12:57 <br/>
+Casual Riders - 21:20 <br/>
 ![Alt Text]()
 
-3. Ride Preference by - Month-Month, Week and Time of Day
+3. Ride Preference by - Month-Month, Week and Time of Day <br/>
 
 ## Yearly Trend
 Looking at the ride trend line each month of the year in the graph below, we can conclude that the summer months is the peak season.
