@@ -46,6 +46,7 @@ The dataset was provided in the Google Data Analytics Capstone Project. It inclu
 
 ## Data Preparation
 My first step of data preparation was to import all data and combine all into a single table using Pandas import read_csv and concat functions. <br />
+
 ![Alt text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/Screenshot%202023-12-24%20at%201.40.47%E2%80%AFPM.png)
 
 We then explore our dataset using the following pandas functions:
@@ -95,15 +96,34 @@ To achieved this, I sorted the latitude and longitude values in ascending values
 Now we have cleaned our dataset, it's time to perform analysis to help use provide data-driven recommendations.
 
 1. Number of Trips
-
+After cleaning our dataset, we have a 
+Total Rides -  5,137,290
+Annual Members - 2,885,196.
+Casual Riders - 2,252,094.
 
 2. Duration of Rides
+We show the average ride duration for each rider type.
+![Alt Text]()
 
-3. Ride Preference by - Month, Week and Time of Day
+3. Ride Preference by - Month-Month, Week and Time of Day
+## Yearly Trend
+Looking at the ride trend line each month of the year in the graph below, we can conclude that the summer months is the peak season.
+![Alt Text]()
 
+## Weekly Trend
+From the histogram below we see there's a higher usage during the weekends, especially from the casual riders.
+![Alt Text]()
+
+## Daily Usage
+We use a 24-hr heatmap to show what time of the day riders use the bikes the most.
+### Annual Members
+![Alt Text]()
+
+### Casual Riders
+![Alt Text]()
 
 4. Start and End Station
-
+Here are the most used start and end destinations for trips.
 
 5. Bike Preference
 
