@@ -92,23 +92,47 @@ Another major problem we had was missing values, occurring in the station names 
 To achieved this, I sorted the latitude and longitude values in ascending values, then performed a forward fill.
 ![Alt Text]()
 
-## Exploratory Data Analysis
-Now we have cleaned our dataset, it's time to perform analysis to help use provide data-driven recommendations.
+## Exploratory Data Analysis/ Findings
+Now that our raw dataset has been cleaned, we can start with our data analysis. The analysis will be done for all rides, which is ideal for stakeholders. Then we perform further analysis to study annual members and casual riders.
+My aim in the anaysis stage is to answer the following questions:
+
+    1. What is the total number of rides for all trips and by riders type?
+    2. On average, how long do riders rent out the bicycles?
+    3. How do riders use the bicycles all year long?
+    4. What day of the week do riders prefer?
+    5. What time of the day do riders rent the most?
+    6. What are the top 10 start and end stations?
+    7. Which bicycle type do riders prefer?
+
 
 1. Number of Trips
-After cleaning our dataset, we have a 
+After cleaning our dataset, we have: <br/>
 Total Rides -  5,137,290
-Annual Members - 2,885,196.
-Casual Riders - 2,252,094.
+Annual Members - 2,885,196
+Casual Riders - 2,252,094
 
 2. Duration of Rides
-We show the average ride duration for each rider type.
+We show the average ride duration for each rider type. <br/>
+
+Total Average Ride Duration - 17:38
+Annual Members - 12:57
+Casual Riders - 21:20
 ![Alt Text]()
 
 3. Ride Preference by - Month-Month, Week and Time of Day
+
 ## Yearly Trend
 Looking at the ride trend line each month of the year in the graph below, we can conclude that the summer months is the peak season.
-![Alt Text]()
+
+Preferred Month - July
+Annual Members - September
+Casual Riders - July
+<br/>
+For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. 
+Generally we see the largest portion of our rides in the summer, accounting for 54.24% of all rides taken all year. This is becauase the weather is much warmer during this period and everyone is out and about then. <br/>
+Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year longas compared to casual riders. <br/>
+
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Month.png)
 
 ## Weekly Trend
 From the histogram below we see there's a higher usage during the weekends, especially from the casual riders.
@@ -116,6 +140,7 @@ From the histogram below we see there's a higher usage during the weekends, espe
 
 ## Daily Usage
 We use a 24-hr heatmap to show what time of the day riders use the bikes the most.
+
 ### Annual Members
 ![Alt Text]()
 
@@ -133,18 +158,7 @@ Here are the most used start and end destinations for trips.
 
 
 
-## Data Analysis
-Now that our raw dataset has been cleaned, we can start with our data analysis. The analysis will be done for all rides, which is ideal for stakeholders. Then we perform further analysis to study annual members and casual riders.
-My aim in the anaysis stage is to answer the following questions:
 
-    1. What is the total number of rides for all trips and by riders type?
-    2. On average, how long do riders rent out the bicycles?
-    3. What day of the week do riders prefer?
-    4. How do riders use the bicycles all year long?
-    5. What station are riders choosing to start trips from?
-    6. What station are riders choosing as their end destination?
-    7. What are the top 10 start and end stations?
-    8. Which bicycle type do riders prefer?
 
 
 You can find all the SQL queries ran to answer these questions here: [SQL Queries](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Cyclistic.sql)
