@@ -105,13 +105,13 @@ My aim in the anaysis stage is to answer the following questions:
     7. Which bicycle type do riders prefer?
 
 
-1. Number of Trips
+1. Number of Trips <br/>
 After cleaning our dataset, we have: <br/>
 Total Rides -  5,137,290 <br/>
 Annual Members - 2,885,196 <br/>
 Casual Riders - 2,252,094 <br/>
 
-2. Duration of Rides
+2. Duration of Rides <br/>
 We show the average ride duration for each rider type. <br/>
 Total Average Ride Duration - 17:38 <br/>
 Annual Members - 12:57 <br/>
@@ -131,16 +131,17 @@ Casual Riders - July<br/>
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Month.png)
 
 ## Weekly Trend
-From the histogram below we see there's a higher usage during the weekends, especially from the casual riders.
+From the histogram below we see there's a higher usage during the weekends, especially from the casual riders. <br/>
+
 ![Alt Text]()
 
-Preferred Day of the Week - Saturday
-Annual Members - Wednesday
-Casual Riders - Saturday
+Preferred Day of the Week - Saturday <br/>
+Annual Members - Wednesday <br/>
+Casual Riders - Saturday <br/>
 
 This analysis can help back my assumption that:
-    - For annual members, we see a consistent usage of bicycles all week long significantly during the weekdays. 
-    - Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
+* For annual members, we see a consistent usage of bicycles all week long significantly during the weekdays. 
+* Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
 
 
 ## Daily Usage
@@ -156,10 +157,10 @@ Weekdays - Moderate usage (4:00pm - 8:00pm)
 Weekends - High usage (10:00am - 8:00pm)
 ![Alt Text]()
 
-4. Start and End Station
-Here are the most used start and end destinations for trips.
+4. Start and End Station <br/>
+Here are the most used start and end destinations for trips. <br/>
 
-Top 10 Start Stations
+Top 10 Start Stations <br/>
 0	Streeter Dr & Grand Ave	
 1	Wells St & Hubbard St
 2	Wells St & Concord Ln
@@ -173,7 +174,7 @@ Top 10 Start Stations
 
 ![Alt Text]()
 
-Top 10 End Stations
+Top 10 End Stations <br/>
 0	Streeter Dr & Grand Ave	
 1	Wells St & Concord Ln	
 2	Michigan Ave & Oak St	
