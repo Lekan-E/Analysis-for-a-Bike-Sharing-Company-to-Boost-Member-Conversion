@@ -105,13 +105,13 @@ My aim in the anaysis stage is to answer the following questions:
     7. Which bicycle type do riders prefer?
 
 
-1. Number of Trips <br/>
+1. Number of Trips
 After cleaning our dataset, we have: <br/>
 Total Rides -  5,137,290 <br/>
 Annual Members - 2,885,196 <br/>
 Casual Riders - 2,252,094 <br/>
 
-2. Duration of Rides <br/>
+2. Duration of Rides
 We show the average ride duration for each rider type. <br/>
 Total Average Ride Duration - 17:38 <br/>
 Annual Members - 12:57 <br/>
@@ -121,14 +121,12 @@ Casual Riders - 21:20 <br/>
 3. Ride Preference by - Month-Month, Week and Time of Day <br/>
 
 ## Yearly Trend
-Looking at the ride trend line each month of the year in the graph below, we can conclude that the summer months is the peak season.<br/>
+
+For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year long compared to casual riders. This is becauase the weather is  warmer during this period and everyone is out and about during this period. <br/>
+
 Preferred Month - July<br/>
 Annual Members - September<br/>
 Casual Riders - July<br/>
-
-For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. 
-Generally we see the largest portion of our rides in the summer, accounting for 54.24% of all rides taken all year. This is becauase the weather is much warmer during this period and everyone is out and about then. <br/>
-Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year longas compared to casual riders. <br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Month.png)
 
@@ -136,21 +134,69 @@ Looking at the lines for each ride group, the summer months are the preferred se
 From the histogram below we see there's a higher usage during the weekends, especially from the casual riders.
 ![Alt Text]()
 
-## Daily Usage
-We use a 24-hr heatmap to show what time of the day riders use the bikes the most.
+Preferred Day of the Week - Saturday
+Annual Members - Wednesday
+Casual Riders - Saturday
 
-### Annual Members
+This analysis can help back my assumption that:
+    - For annual members, we see a consistent usage of bicycles all week long significantly during the weekdays. 
+    - Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
+
+
+## Daily Usage
+We use a 24-hr heatmap to show what time of the day riders use the bikes the most. <br/>
+
+From our annual member heatmap below, we can see a pattern:
+Weekdays - Moderate usage in the morning (6:00 - 9:00am) and a high usage (3:00 - 7pm)
+Weekends - Moderate usage (10:00am - 7pm)
 ![Alt Text]()
 
-### Casual Riders
+For casual riders:
+Weekdays - Moderate usage (4:00pm - 8:00pm)
+Weekends - High usage (10:00am - 8:00pm)
 ![Alt Text]()
 
 4. Start and End Station
 Here are the most used start and end destinations for trips.
 
+Top 10 Start Stations
+0	Streeter Dr & Grand Ave	
+1	Wells St & Hubbard St
+2	Wells St & Concord Ln
+3	Clark St & Elm St
+4	Michigan Ave & Oak St
+5	Millennium Park	
+6	Wells St & Elm St
+7	Theater on the Lake
+8	Rockwell St & 57th St
+9	Campbell Ave & 51st St
+
+![Alt Text]()
+
+Top 10 End Stations
+0	Streeter Dr & Grand Ave	
+1	Wells St & Concord Ln	
+2	Michigan Ave & Oak St	
+3	Clark St & Elm St	
+4	New St & Illinois St
+5	Millennium Park	
+6	Wells St & Elm St	
+7	Wells St & Hubbard St	
+8	Maplewood Ave & 59th St	
+9	Theater on the Lake
+
+![Alt Text]()
+
 5. Bike Preference
 
+Preferred Bike Type - Classic Bike
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Number%20of%20Rides%20by%20Bike%20Type.png)
 
+
+
+## Recommendations
+
+1. 
 
 
 
@@ -183,15 +229,6 @@ Some assumptions we can make from this:
 
 
 Q3. What day of the week do riders prefer?
-Preferred Day of the Week - Saturday
-Annual Members - Wednesday
-Casual Riders - Saturday
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20day%20of%20week%20BY%20(cm).png)
-
-This analysis can help back my assumption that:
-    - For annual members, we see a consistent usage of bicycles all week long significantly during the weekdays. 
-    - Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
 
 
 Q4. How do riders use the bicycles all year long?
@@ -269,8 +306,6 @@ Clark St & Lincoln Ave
 
 Q8. Which bicycle type do riders prefer?
 
-Preferred Bike Type - Classic Bike
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Number%20of%20Rides%20by%20Bike%20Type.png)
 
 
 ## Data Visualization
