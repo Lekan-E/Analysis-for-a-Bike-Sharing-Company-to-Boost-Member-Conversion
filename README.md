@@ -45,7 +45,7 @@ The dataset was provided in the Google Data Analytics Capstone Project. It inclu
 * Member Type - member_casual
 
 ## Data Preparation
-My first step of data preparation was to import all data and combine all into a single table using Pandas import read_csv and concat functions.
+My first step of data preparation was to import all data and combine all into a single table using Pandas import read_csv and concat functions. <br />
 ![Alt text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/Screenshot%202023-12-24%20at%201.40.47%E2%80%AFPM.png)
 
 We then explore our dataset using the following pandas functions:
@@ -65,42 +65,53 @@ This process involves creating and extracting new fields from our dataset. We ac
 5. Given the start and end latitude and longitude, we join them into a list as start and end positions.
 6. With the start and end positions, we write a function to calculate each trips distance. <br />
 
+![Alt Text]()
+
 Now we begin data cleaning.
 
 ## Data Cleaning
 This process is divided into two parts:
+
 * Eliminate bad data:
+The conditions we set to filter out bad data is: 
+1. Ride Duration <= 0 seconds
+2. Trip Distance < 0 kilometers
 
-* Remove outliers
+* Remove outliers:
+Our focus on dropping outliers was on the ride durations(s) using the below steps:
+1. Plot a box-plot to show the distribution of our time data.
+2. Find the appropriate percentile (For this I decided to go with the 95th percentile because it gives a better representation of our data)
+3. Get the upper and lower limit
+4. Filter out data below the lower limit and above the upper limit.
 
-From the start date and time, we can get information on the month and year (month_year), day of the week (day_of_week) where the ride started. And with the ended_at, we can get the ride duration (ride_length) = [ended_at - started_at].
+After data cleaning, we dropped bad data from 5738812 to 5137290 rides.
 
-After performing this process on all 13 months dataset, I import the data into MySQL Workbench for further data preparation by creating the table sturcture and loading the .csv files using the below process. 
+## Filling NaN values
+Another major problem we had was missing values, occurring in the station names and IDs. <br />
+To achieved this, I sorted the latitude and longitude values in ascending values, then performed a forward fill.
+![Alt Text]()
 
-![Alt text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/import%20tables.jpg)
+## Exploratory Data Analysis
+Now we have cleaned our dataset, it's time to perform analysis to help use provide data-driven recommendations.
 
-**Figure 1: Loading Tables into SQL Workbench**
-
-After loading all tables into SQL, I create a SQL View 'v_all_months' to combine all 13 tables into a single sheet. (A SQL View is a virtual table whose contents are obtained from an existing table called a base table.)
-
-From this view, we can further breakdown the table into smaller tables. Working with smaller tables helps us with running queries and for data cleaning.
-
-![Alt text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/schema.jpg)
-**Figure 2: Table Schema**
+1. Number of Trips
 
 
-## Data Cleaning
-The last and most important step before analysis is data cleaning.
-Our data cleaning for this project involved:
-- Updating Missing Station Info: This process involved updating station names by finding the information from their unique ids and also using the longitude and latitude position. Using latitude and longitude we updated numerics to 3 decimal places, from there we can easily find and update the missing station names, which will be important in our analysis later on.
+2. Duration of Rides
 
-- Deleting Trips with a Duration of 0 or less than 0 seconds: Ride length can only be postive for the trip to have occured. So any trip with a duration less than or equal 0 seconds is deleted from the dataset.
+3. Ride Preference by - Month, Week and Time of Day
 
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Misc/data%20cleaning.jpg)
 
-**Figure 3: Data Cleaning**
+4. Start and End Station
 
-At the end of cleaning, we 5,738,312 rides ready for analysis.
+
+5. Bike Preference
+
+
+
+
+
+
 
 ## Data Analysis
 Now that our raw dataset has been cleaned, we can start with our data analysis. The analysis will be done for all rides, which is ideal for stakeholders. Then we perform further analysis to study annual members and casual riders.
