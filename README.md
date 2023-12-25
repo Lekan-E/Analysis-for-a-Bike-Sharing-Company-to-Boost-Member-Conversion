@@ -85,7 +85,7 @@ Our focus on dropping outliers was on the ride durations(s) using the below step
 * Get the upper and lower limit
 * Filter out data below the lower limit and above the upper limit.
 
-After data cleaning, we dropped bad data from 5738812 to 5137290 rides.
+After data cleaning, we dropped bad data from 5,738,812 to 5,137,290 rides.
 
 ## Filling NaN values
 Another major problem we had was missing values, occurring in the station names and IDs. <br />
@@ -120,7 +120,7 @@ Casual Riders - 21:20 <br/>
 
 3. Ride Preference by - Month-Month, Week and Time of Day <br/>
 
-## Yearly Trend
+### Yearly Trend
 
 For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year long compared to casual riders. This is becauase the weather is  warmer during this period and everyone is out and about during this period. <br/>
 
@@ -130,7 +130,7 @@ Casual Riders - July<br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Month.png)
 
-## Weekly Trend
+### Weekly Trend
 From the histogram below we see there's a higher usage during the weekends, especially from the casual riders. <br/>
 
 ![Alt Text]()
@@ -144,7 +144,7 @@ This analysis can help back my assumption that:
 * Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
 
 
-## Daily Usage
+### Daily Usage
 We use a 24-hr heatmap to show what time of the day riders use the bikes the most. <br/>
 
 From our annual member heatmap below, we can see a pattern:
@@ -161,30 +161,30 @@ Weekends - High usage (10:00am - 8:00pm)
 Here are the most used start and end destinations for trips. <br/>
 
 Top 10 Start Stations <br/>
-0	Streeter Dr & Grand Ave	
-1	Wells St & Hubbard St
-2	Wells St & Concord Ln
-3	Clark St & Elm St
-4	Michigan Ave & Oak St
-5	Millennium Park	
-6	Wells St & Elm St
-7	Theater on the Lake
-8	Rockwell St & 57th St
-9	Campbell Ave & 51st St
+1. Streeter Dr & Grand Ave	
+2. Wells St & Hubbard St
+3. Wells St & Concord Ln
+4. Clark St & Elm St
+5. Michigan Ave & Oak St
+6. Millennium Park	
+7. Wells St & Elm St
+8. Theater on the Lake
+9. Rockwell St & 57th St
+10. Campbell Ave & 51st St
 
 ![Alt Text]()
 
 Top 10 End Stations <br/>
-0	Streeter Dr & Grand Ave	
-1	Wells St & Concord Ln	
-2	Michigan Ave & Oak St	
-3	Clark St & Elm St	
-4	New St & Illinois St
-5	Millennium Park	
-6	Wells St & Elm St	
-7	Wells St & Hubbard St	
-8	Maplewood Ave & 59th St	
-9	Theater on the Lake
+1. Streeter Dr & Grand Ave	
+2. Wells St & Concord Ln	
+3. Michigan Ave & Oak St	
+4. Clark St & Elm St	
+5. New St & Illinois St
+6. Millennium Park	
+7. Wells St & Elm St	
+8. Wells St & Hubbard St	
+9. Maplewood Ave & 59th St	
+10. Theater on the Lake
 
 ![Alt Text]()
 
@@ -197,115 +197,50 @@ Preferred Bike Type - Classic Bike
 
 ## Recommendations
 
-1. 
+1. Create a reward milestone program - Here users collect points from daily trips. The point system will be based of the daily heat map usage shown below. <br/>
+
+Annual Members: 
+2 points for trips outside peak periods
+4 points for trips during peak period.
+
+Casual Riders:
+1 point for trips outside peak periods
+2 points for trips during peak period.
+
+Riders can use accumulated points for:
+* Discounted trips 50%: Members, 5%: Casual Riders
+* Get free ride with a friend
+* Free 30 minutes rides on public holidays for annual members
+* Free 15 minutes rides on public holidays for casual riders
+
+The aim is to convert casual riders by showing the perks of being an annual member.
+
+![Alt Text]()
+![Alt Text]()
+
+2. Provide discounted annual rates for signing up outside busy periods <br/>
+
+Based on the yearly ride chart, we can offer discounted annual rates for new signups and also for renewing annual memberships where we see a hike or drop in the number of rides.
+Using the plot below, we can offer these promotions to:
+Casual Riders:
+* December and April. Here we have an increased number in usage, and that can potentially be converted into annual members.
+* July and September. Here we see a drop in the number of rides, here we can convince them to signup as annual members with a discoutned rate.
+
+Annual Members:
+* March and June, here we have an increased number in usage, and that can potentially be converted into annual members.
+* November, here we see a drop in the number of rides, here we can convince them to renew as annual members with a discoutned rate.
 
 
+3. Members-only bike rental window based on daily heat maps/Bike Preference
+
+Based on our daily heatmap, we notice a peak period during the weekdays where annual members are using bikes more as compared to casual riders. From that, we give priorty access to our most used bike - classic bike to only members. We make classic bikes exclusively annual members only during the peak periods in the weekday. 
 
 
+4. Targeted Advertisment at most used start and end stations
 
 
+2. Unlock access to particular bikes at a specific reward milestone
 
-
-You can find all the SQL queries ran to answer these questions here: [SQL Queries](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Cyclistic.sql)
-
-
-Q1. What is the total number of rides for all trips and by riders type?
-Total Rides - 5,738,812
-Annaul Members - 3,161,366
-Casual Riders - 2,577,446
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Member.png)
-We see that annual members make up about 55% of the total number of rides, while casual 45%.
-
-
-Q2. On average, how long do riders rent out the bicycles?
-All riders have an average duration of about 20 minutes and 8 secs.
-Here members spends lesser times of 11:02 while casual riders spend about 31:17.
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/ride%20duration.jpg)
-
-The average ride duration gives us a base to make some assumptions on bike usage on the riders. <br />
-Some assumptions we can make from this:
-- annual members could be using the bicycles to perform daily tasks, such as commute to work, grocery shopping and as an alternate to having a car.
-- While casual riders use for leisure purposes, who spend more time renting bicycles could potentially by tourists exploring the city, moving across various POIs in the city, or just going on casual bike rides with friends.
-
-
-Q3. What day of the week do riders prefer?
-
-
-Q4. How do riders use the bicycles all year long?
-
-Preferred Month - July
-Annual Members - September
-Casual Riders - July
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20per%20month.png)
-
-For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. 
-Generally we see the largest portion of our rides in the summer, accounting for 54.24% of all rides taken all year. This is becauase the weather is much warmer during this period and everyone is out and about then.
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Month.png)
-
-Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year longas compared to casual riders.
-
-
-Q5. What station are riders choosing to start trips from?
-
-Preferred Start Station - Lake Shore Dr & Monroe St
-Annual Members - Kostner Ave & Lake St 
-Casual Riders - Lake Shore Dr & North Blvd
-
-The preferred start station is located along the coastline of Chicago, this is a perfect place to go for a bike ride. But we can further analyze the start station better, according to the rider group.
-    - The top start station for members is located inside the city, concluding that majority of the rides are used for day-to-day tasks.
-    ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/(CM)%20top%2010%20start%20-%20members.png)
-    - For casual riders, the most used start station is along the beach or coastline.
-    ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/(C)%20top%2010%20start%20-%20casuals.png)
-
-
-Q6. What station are riders choosing as their end destination?
-
-Preferred Destination Station - Lake Shore Dr & Monroe St
-Annual Members - Kedzie Ave & Foster Ave
-Casual Riders - Lake Shore Dr & North Blvd
-
-The preferred end station, Lake Shore Dr & Monroe St is also riders preferred start station. We can conclude that it is the company's must used station.
-
-For annual members, the most popular destination, Kedzie Ave & Foster Ave is also located inside the city.
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Top%2010%20End%20-%20Members.png)
-
-But for casual riders, it remaains the same as the start station along the coastline. So a partial assumption we can make is that, most casual riders prefer starting and ending at the same destination station. We need to make further analysis to come to a conclusion.
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/(C)%20Top%2010%20End%20-%20Casuals.png)
-
-
-Q7. What are the top 10 start and end stations?
-
-Top 10 Start Stations:
-Lake Shore Dr & Monroe St
-Streeter Dr & Grand Ave
-Michigan Ave & Oak St
-Wells St & Concord Ln
-Clark St & Elm St
-Millennium Park
-Theater on the Lake
-Wells St & Elm St
-Clark St & Lincoln Ave
-Kingsbury St & Kinzie St
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Start%20Station.png)
-
-Top 10 End Stations:
-Lake Shore Dr & Monroe St
-Streeter Dr & Grand Ave
-Michigan Ave & Oak St
-Wells St & Concord Ln
-Millennium Park
-Clark St & Elm St
-Theater on the Lake
-Wells St & Elm St
-Wabash Ave & Grand Ave
-Clark St & Lincoln Ave
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/End%20Station.png)
-
-
-Q8. Which bicycle type do riders prefer?
 
 
 
