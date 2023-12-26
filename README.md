@@ -30,7 +30,7 @@ The libraries used on this project include:
 ## Dataset
 The dataset was provided in the Google Data Analytics Capstone Project. It includes a month-month dataset for a year, running from Nov. 2020 - Nov. 2021 in .csv format. Each sheet includes ride information for each month, providing: <br />
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/Screenshot%202023-12-26%20at%2012.24.53%E2%80%AFPM.png)
 
 ## Data Preparation
 My first step of data preparation was to import all data and combine all into a single table using Pandas import read_csv and concat functions. <br />
@@ -54,7 +54,7 @@ This process involves creating and extracting new fields from our dataset. We ac
 5. Given the start and end latitude and longitude, we join them into a list as start and end positions.
 6. With the start and end positions, we write a function to calculate each trips distance. <br />
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/Screenshot%202023-12-25%20at%201.19.35%E2%80%AFAM.png)
 
 Now we begin data cleaning.
 
@@ -78,7 +78,7 @@ After data cleaning, we dropped bad data from 5,738,812 to 5,137,290 rides ~ 10.
 ## Filling NaN values
 Another major problem we had was missing values, occurring in the station names and IDs. <br />
 To achieved this, I sorted the latitude and longitude values in ascending values, then performed a forward fill.
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/Screenshot%202023-12-25%20at%201.36.54%E2%80%AFAM.png)
 
 ## Exploratory Data Analysis/ Findings
 Now that our raw dataset has been cleaned, we can start with our data analysis. <br/>
@@ -105,7 +105,6 @@ We show the average ride duration for each rider type. <br/>
 Total Average Ride Duration - 17:38 <br/>
 Annual Members - 12:57 <br/>
 Casual Riders - 21:20 <br/>
-![Alt Text]()
 
 ### 3. Ride Preference by - Month-Month, Week and Time of Day 
 
@@ -122,7 +121,7 @@ Casual Riders - July<br/>
 Weekly Trend <br/>
 From the histogram below we see there's a higher usage during the weekends, especially from the casual riders. <br/>
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(2).png)
 
 Preferred Day of the Week - Saturday <br/>
 Annual Members - Wednesday <br/>
@@ -135,15 +134,18 @@ This analysis can help back my assumption that:
 
 Daily Usage <br/>
 We use a 24-hr heatmap to show what time of the day riders use the bikes the most. <br/>
+
 From our annual member heatmap below, we can see a pattern: <br/>
 Weekdays - Moderate usage in the morning (6:00 - 9:00am) and a high usage (3:00 - 7pm) <br/>
 Weekends - Moderate usage (10:00am - 7pm) <br/>
-![Alt Text]()
+
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(3).png)
 
 For casual riders: <br/>
 Weekdays - Moderate usage (4:00pm - 8:00pm) <br/>
 Weekends - High usage (10:00am - 8:00pm) <br/>
-![Alt Text]()
+
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(4).png)
 
 4. Start and End Station <br/>
 Here are the most used start and end destinations for trips. <br/>
