@@ -236,10 +236,9 @@ Annual Members:
 Based on our daily heatmap, we notice a peak period during the weekdays where annual members are using bikes more as compared to casual riders. From that, we give priorty access to our most used bike - classic bike to only members. We make classic bikes exclusively annual members only during the peak periods in the weekday. 
 
 
-4. Targeted Advertisment at most used start and end stations
+4. Targeted Advertisment at most used start and end stations during peak periods
 
-
-2. Unlock access to particular bikes at a specific reward milestone
+Based on our top 10 casul riders start and destination stations, we run advertisement during peak yearly periods showing the perks of being an annual member and off discounted rates from signups off the ads.
 
 
 
