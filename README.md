@@ -1,9 +1,8 @@
 # Comparative-Analysis-Project
-A customer analysis dashboard for a bike-sharing company to better understand how members and casual riders uses the bike and differ.
+A customer analysis study for a bike-sharing company to better understand how members and casual riders uses the bike and provide recommendations to convert casual riders to annual members.
 
 ## Overview
-This is a case-study for a bike-sharing company with a fleet of 5,824 bicycles including (Electric, Classic and Docked Bikes) which are located in a network of 692 stations across Chicago. Bicycles can begin at a station and be returned to any station. <br />
-The company provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes. <br />
+This is a case-study for a bike-sharing company that provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes with a fleet of 5,824 bicycles including (Electric, Classic and Docked Bikes) which are located in a network of 692 stations across Chicago. Bicycles can begin at a station and be returned to any station. <br />
 
 ## Businesss Task
 The director of marketing has tasked me to come up with strategies aimed at converting exisiting casual riders to annual members. To do that the marketing team needs to better understand riders differ. For us to achieve this, we need to study both customer's needs, behaviours and understand the pattern. <br />
@@ -29,20 +28,9 @@ The libraries used on this project include:
 * Scipy - To check and improve skewness
 
 ## Dataset
-The dataset was provided in the Google Data Analytics Capstone Project. It includes a month-month dataset for a year, running from Nov. 2020 - Nov. 2021 in .csv format. Each sheet includes ride information for each month, providing:
-* A unique ride id - ride_id
-* Bike Type - rideable_type
-* Start Date and Time - started_at
-* End Date and Time - ended_at
-* Start Station - start_station_name
-* start_station_id
-* End Station - end_station_name
-* end_Station_id
-* Start Station Latitude - start_lat
-* Start Station Longitude - start_lng
-* End Station Latitude - end_lat
-* End Station Longitude - end_lng
-* Member Type - member_casual
+The dataset was provided in the Google Data Analytics Capstone Project. It includes a month-month dataset for a year, running from Nov. 2020 - Nov. 2021 in .csv format. Each sheet includes ride information for each month, providing: <br />
+
+![Alt Text]()
 
 ## Data Preparation
 My first step of data preparation was to import all data and combine all into a single table using Pandas import read_csv and concat functions. <br />
@@ -85,7 +73,7 @@ Our focus on dropping outliers was on the ride durations(s) using the below step
 * Get the upper and lower limit
 * Filter out data below the lower limit and above the upper limit.
 
-After data cleaning, we dropped bad data from 5,738,812 to 5,137,290 rides.
+After data cleaning, we dropped bad data from 5,738,812 to 5,137,290 rides ~ 10.48% of bad data dropped.
 
 ## Filling NaN values
 Another major problem we had was missing values, occurring in the station names and IDs. <br />
@@ -93,7 +81,8 @@ To achieved this, I sorted the latitude and longitude values in ascending values
 ![Alt Text]()
 
 ## Exploratory Data Analysis/ Findings
-Now that our raw dataset has been cleaned, we can start with our data analysis. The analysis will be done for all rides, which is ideal for stakeholders. Then we perform further analysis to study annual members and casual riders.
+Now that our raw dataset has been cleaned, we can start with our data analysis. <br/>
+The analysis will be done for all rides, which is ideal for stakeholders. Then we perform further analysis to study annual members and casual riders.
 My aim in the anaysis stage is to answer the following questions:
 
     1. What is the total number of rides for all trips and by riders type?
@@ -105,22 +94,22 @@ My aim in the anaysis stage is to answer the following questions:
     7. Which bicycle type do riders prefer?
 
 
-1. Number of Trips <br/>
+### 1. Number of Trips 
 After cleaning our dataset, we have: <br/>
 Total Rides -  5,137,290 <br/>
 Annual Members - 2,885,196 <br/>
 Casual Riders - 2,252,094 <br/>
 
-2. Duration of Rides <br/>
+### 2. Duration of Rides 
 We show the average ride duration for each rider type. <br/>
 Total Average Ride Duration - 17:38 <br/>
 Annual Members - 12:57 <br/>
 Casual Riders - 21:20 <br/>
 ![Alt Text]()
 
-3. Ride Preference by - Month-Month, Week and Time of Day <br/>
+### 3. Ride Preference by - Month-Month, Week and Time of Day 
 
-### Yearly Trend
+Yearly Trend <br/>
 
 For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year long compared to casual riders. This is becauase the weather is  warmer during this period and everyone is out and about during this period. <br/>
 
@@ -130,7 +119,7 @@ Casual Riders - July<br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Month.png)
 
-### Weekly Trend
+Weekly Trend <br/>
 From the histogram below we see there's a higher usage during the weekends, especially from the casual riders. <br/>
 
 ![Alt Text]()
@@ -144,17 +133,16 @@ This analysis can help back my assumption that:
 * Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
 
 
-### Daily Usage
+Daily Usage <br/>
 We use a 24-hr heatmap to show what time of the day riders use the bikes the most. <br/>
-
-From our annual member heatmap below, we can see a pattern:
-Weekdays - Moderate usage in the morning (6:00 - 9:00am) and a high usage (3:00 - 7pm)
-Weekends - Moderate usage (10:00am - 7pm)
+From our annual member heatmap below, we can see a pattern: <br/>
+Weekdays - Moderate usage in the morning (6:00 - 9:00am) and a high usage (3:00 - 7pm) <br/>
+Weekends - Moderate usage (10:00am - 7pm) <br/>
 ![Alt Text]()
 
-For casual riders:
-Weekdays - Moderate usage (4:00pm - 8:00pm)
-Weekends - High usage (10:00am - 8:00pm)
+For casual riders: <br/>
+Weekdays - Moderate usage (4:00pm - 8:00pm) <br/>
+Weekends - High usage (10:00am - 8:00pm) <br/>
 ![Alt Text]()
 
 4. Start and End Station <br/>
@@ -190,22 +178,27 @@ Top 10 End Stations <br/>
 
 5. Bike Preference
 
-Preferred Bike Type - Classic Bike
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Number%20of%20Rides%20by%20Bike%20Type.png)
+Preferred Bike Type - Classic Bike <br/>
+Here's a chart showing bike preference amongst various users. We can see the Classic Bike is the most used and preferred bike type.
 
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Number%20of%20Rides%20by%20Bike%20Type.png)
 
 
 ## Recommendations
 
-1. Create a reward milestone program - Here users collect points from daily trips. The point system will be based of the daily heat map usage shown below. <br/>
+1. Create a reward milestone program - Here users collect points from daily trips. The point collect system will be based of the daily heat map usage shown below. <br/>
 
-Annual Members: 
-2 points for trips outside peak periods
-4 points for trips during peak period.
+Annual Members: <br/>
+2 points for trips outside peak periods <br/>
+3 points for trips during peak period. <br/>
+
+![Alt Text]()
 
 Casual Riders:
-1 point for trips outside peak periods
-2 points for trips during peak period.
+1 point for trips outside peak periods <br/>
+2 points for trips during peak period. <br/>
+
+![Alt Text]()
 
 Riders can use accumulated points for:
 * Discounted trips 50%: Members, 5%: Casual Riders
@@ -213,14 +206,10 @@ Riders can use accumulated points for:
 * Free 30 minutes rides on public holidays for annual members
 * Free 15 minutes rides on public holidays for casual riders
 
-The aim is to convert casual riders by showing the perks of being an annual member.
+The aim is to convert casual riders by showing them perks of being an annual member whilst alos encourage members to renew membership. <br/>
 
-![Alt Text]()
-![Alt Text]()
-
-2. Provide discounted annual rates for signing up outside busy periods <br/>
-
-Based on the yearly ride chart, we can offer discounted annual rates for new signups and also for renewing annual memberships where we see a hike or drop in the number of rides.
+2. Provide discounted annual rates for signing up outside busy periods 
+Based on the yearly ride chart, we can offer casual riders discounted annual rates for new signups and also for renewing annual memberships where we see a hike or drop in the number of rides. <br/>
 Using the plot below, we can offer these promotions to:
 Casual Riders:
 * December and April. Here we have an increased number in usage, and that can potentially be converted into annual members.
