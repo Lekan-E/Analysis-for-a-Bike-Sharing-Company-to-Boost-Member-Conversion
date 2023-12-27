@@ -108,7 +108,7 @@ Casual Riders - 21:20 <br/>
 
 ### 3. Ride Preference by - Month-Month, Week and Time of Day 
 
-Yearly Trend <br/>
+<ins>Yearly Trend</ins> <br/>
 
 For this analysis, we look at the monthly number of rides through the year. This helps us understand what time of the year or season our riders prefer. Looking at the lines for each ride group, the summer months are the preferred season for casual riders. Annual riders also prefer the summer months but we still see more interest all year long compared to casual riders. This is becauase the weather is  warmer during this period and everyone is out and about during this period. <br/>
 
@@ -118,7 +118,7 @@ Casual Riders - July<br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/e599f8615fc7722c466c771aa6b8d7ae909fabce/Images/Misc/download.png)
 
-Weekly Trend <br/>
+<ins>Weekly Trend</ins> <br/>
 From the histogram below we see there's a higher usage during the weekends, especially from the casual riders. <br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(2).png)
@@ -132,7 +132,7 @@ This analysis can help back my assumption that:
 * Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
 
 
-Daily Usage <br/>
+<ins>Daily Usage</ins> <br/>
 We use a 24-hr heatmap to show what time of the day riders use the bikes the most. <br/>
 
 From our annual member heatmap below, we can see a pattern: <br/>
@@ -150,7 +150,7 @@ Weekends - High usage (10:00am - 8:00pm) <br/>
 ### 4. Start and End Station 
 Here are the most used start and end destinations for trips. <br/>
 
-Top 10 Start Stations <br/>
+<ins>Top 10 Start Stations</ins> <br/>
 1. Streeter Dr & Grand Ave	
 2. Wells St & Hubbard St
 3. Wells St & Concord Ln
@@ -164,7 +164,7 @@ Top 10 Start Stations <br/>
 
 ![Alt Text]()
 
-Top 10 End Stations <br/>
+<ins>Top 10 End Stations</ins> <br/>
 1. Streeter Dr & Grand Ave	
 2. Wells St & Concord Ln	
 3. Michigan Ave & Oak St	
@@ -188,7 +188,7 @@ Here's a chart showing bike preference amongst various users. We can see the Cla
 
 ## Recommendations
 
-1. Create a reward milestone program - Here users collect points from daily trips. The point collect system will be based of the daily heat map usage shown below. <br/>
+1. <ins>Create a reward milestone program</ins> - Here users collect points from daily trips. The point collect system will be based of the daily heat map usage shown below. <br/>
 
 Annual Members: 
 * 2 points for trips outside peak periods 
@@ -206,7 +206,7 @@ Riders can use accumulated points for:
 
 The aim is to convert casual riders by showing them perks of being an annual member whilst also encourage members to renew membership. <br/>
 
-2. Provide discounted annual rates for signing up outside busy periods 
+2. <ins>Provide discounted annual rates for signing up outside busy periods </ins>
 Based on the yearly ride chart, we can offer casual riders discounted annual rates for new signups and also for renewing annual memberships where we see a hike or drop in the number of rides. <br/>
 
 Casual Riders:
