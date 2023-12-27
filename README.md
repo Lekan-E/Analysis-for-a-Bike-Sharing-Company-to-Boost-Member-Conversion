@@ -182,7 +182,7 @@ Here are the most used start and end destinations for trips. <br/>
 Preferred Bike Type - Classic Bike <br/>
 Here's a chart showing bike preference amongst various users. We can see the Classic Bike is the most used and preferred bike type.
 
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Number%20of%20Rides%20by%20Bike%20Type.png)
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/c97de348a31cda55b3697beeb0382c2c3ec4a3ff/Images/Misc/download%20(5).png)
 
 
 ## Recommendations
@@ -224,8 +224,11 @@ Based on our daily heatmap, we notice a peak period during the weekdays where an
 
 4. <ins>Targeted Advertisment at most used start and end stations during peak periods</ins>
 
-Based on our top 10 casual riders start and destination stations, we run advertisement during peak yearly periods showing the perks of being an annual member and offer discounted rates from signups off the ads.
+Based on our top 10 casual riders start and destination stations, we run advertisement during peak yearly periods showing the perks of being an annual member and offer discounted rates from signups off the ads. <br/>
 
+A good station for advertisement for casual riders is - Streeter Dr & Grand Ave, because this station has a large proportion of start and end rides. <br/>
+
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/c97de348a31cda55b3697beeb0382c2c3ec4a3ff/Images/Misc/newplot%20copy%203.png)
 
 
 ## Data Visualization
