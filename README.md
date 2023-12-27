@@ -161,7 +161,7 @@ Here are the most used start and end destinations for trips. <br/>
 9. Rockwell St & 57th St
 10. Campbell Ave & 51st St
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/b390b2eac19c8c687b5eb3437d09218c25c9c921/Images/Misc/newplot%20copy.png)
 
 <ins>Top 10 End Stations</ins> <br/>
 1. Streeter Dr & Grand Ave	
@@ -175,7 +175,7 @@ Here are the most used start and end destinations for trips. <br/>
 9. Maplewood Ave & 59th St	
 10. Theater on the Lake
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/b390b2eac19c8c687b5eb3437d09218c25c9c921/Images/Misc/newplot%20copy%202.png)
 
 ### 5. Which bicycle type do riders prefer?
 
