@@ -78,6 +78,7 @@ After data cleaning, we dropped bad data from 5,738,812 to 5,137,290 rides ~ 10.
 ## Filling NaN values
 Another major problem we had was missing values, occurring in the station names and IDs. <br />
 To achieved this, I sorted the latitude and longitude values in ascending values, then performed a forward fill.
+
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/Screenshot%202023-12-25%20at%201.36.54%E2%80%AFAM.png)
 
 ## Exploratory Data Analysis/ Findings
@@ -120,9 +121,6 @@ Casual Riders - July<br/>
 
 <ins>Weekly Trend</ins> <br/>
 From the histogram below we see there's a higher usage during the weekends, especially from the casual riders. <br/>
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(2).png)
-
 Preferred Day of the Week - Saturday <br/>
 Annual Members - Wednesday <br/>
 Casual Riders - Saturday <br/>
@@ -131,6 +129,7 @@ This analysis can help back my assumption that:
 * For annual members, we see a consistent usage of bicycles all week long significantly during the weekdays. 
 * Casual riders rent for leisure purposes because a higher percentage of the rides happen during the weekends and we see a notable reduction during the weekday.
 
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(2).png)
 
 <ins>Daily Usage</ins> <br/>
 We use a 24-hr heatmap to show what time of the day riders use the bikes the most. <br/>
