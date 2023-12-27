@@ -147,7 +147,7 @@ Weekends - High usage (10:00am - 8:00pm) <br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(4).png)
 
-4. Start and End Station <br/>
+### 4. Start and End Station 
 Here are the most used start and end destinations for trips. <br/>
 
 Top 10 Start Stations <br/>
@@ -194,13 +194,13 @@ Annual Members: <br/>
 2 points for trips outside peak periods <br/>
 3 points for trips during peak period. <br/>
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/74927bd4c7dd5f3bb5032bc6468b2e75b8521c08/Images/Misc/download%20(3).png)
 
 Casual Riders:
 1 point for trips outside peak periods <br/>
 2 points for trips during peak period. <br/>
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/74927bd4c7dd5f3bb5032bc6468b2e75b8521c08/Images/Misc/download%20(4).png)
 
 Riders can use accumulated points for:
 * Discounted trips 50%: Members, 5%: Casual Riders
@@ -229,8 +229,7 @@ Based on our daily heatmap, we notice a peak period during the weekdays where an
 
 4. Targeted Advertisment at most used start and end stations during peak periods
 
-Based on our top 10 casul riders start and destination stations, we run advertisement during peak yearly periods showing the perks of being an annual member and off discounted rates from signups off the ads.
-
+Based on our top 10 casual riders start and destination stations, we run advertisement during peak yearly periods showing the perks of being an annual member and offer discounted rates from signups off the ads.
 
 
 
@@ -246,5 +245,3 @@ Annual Members Dashboard:
 
 Casual Riders Dashbaord:
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
-
-## Conclusion/Findings
