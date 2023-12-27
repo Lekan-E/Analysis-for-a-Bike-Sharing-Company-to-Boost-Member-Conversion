@@ -226,7 +226,7 @@ Based on our daily heatmap, we notice a peak period during the weekdays where an
 
 Based on our top 10 casual riders start and destination stations, we run advertisement during peak yearly periods showing the perks of being an annual member and offer discounted rates from signups off the ads. <br/>
 
-A good station for advertisement for casual riders is - Streeter Dr & Grand Ave, because this station has a large proportion of start and end rides. <br/>
+A good station for advertisement for casual riders is - Streeter Dr & Grand Ave, because this station is the most popular destination stop for casual riders. <br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/3e42dc6486d81dabeb62ade5985dfed39ee84842/Images/Misc/newplot%20copy%202.png)
 
