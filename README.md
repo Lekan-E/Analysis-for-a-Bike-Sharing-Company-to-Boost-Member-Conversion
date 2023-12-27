@@ -161,7 +161,7 @@ Here are the most used start and end destinations for trips. <br/>
 9. Rockwell St & 57th St
 10. Campbell Ave & 51st St
 
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/b390b2eac19c8c687b5eb3437d09218c25c9c921/Images/Misc/newplot%20copy.png)
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/3e42dc6486d81dabeb62ade5985dfed39ee84842/Images/Misc/newplot.png)
 
 <ins>Top 10 End Stations</ins> <br/>
 1. Streeter Dr & Grand Ave	
@@ -175,7 +175,7 @@ Here are the most used start and end destinations for trips. <br/>
 9. Maplewood Ave & 59th St	
 10. Theater on the Lake
 
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/b390b2eac19c8c687b5eb3437d09218c25c9c921/Images/Misc/newplot%20copy%202.png)
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/3e42dc6486d81dabeb62ade5985dfed39ee84842/Images/Misc/newplot%20copy.png)
 
 ### 5. Which bicycle type do riders prefer?
 
@@ -228,7 +228,8 @@ Based on our top 10 casual riders start and destination stations, we run adverti
 
 A good station for advertisement for casual riders is - Streeter Dr & Grand Ave, because this station has a large proportion of start and end rides. <br/>
 
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/c97de348a31cda55b3697beeb0382c2c3ec4a3ff/Images/Misc/newplot%20copy%203.png)
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/3e42dc6486d81dabeb62ade5985dfed39ee84842/Images/Misc/newplot%20copy%202.png)
+
 
 
 ## Data Visualization
