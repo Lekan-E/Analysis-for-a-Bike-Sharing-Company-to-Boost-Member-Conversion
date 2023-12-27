@@ -61,12 +61,12 @@ Now we begin data cleaning.
 ## Data Cleaning
 This process is divided into two parts:
 
-1. Eliminate bad data:
+1. <ins>Eliminate bad data:</ins>
 The conditions we set to filter out bad data is: 
 * Ride Duration <= 0 seconds
 * Trip Distance < 0 kilometers
 
-2. Remove outliers:
+2. <ins>Remove outliers:</ins>
 Our focus on dropping outliers was on the ride durations(s) using the below steps:
 * Plot a box-plot to show the distribution of our time data.
 * Find the appropriate percentile (For this I decided to go with the 95th percentile because it gives a better representation of our data)
@@ -94,13 +94,13 @@ My aim in the anaysis stage is to answer the following questions:
     7. Which bicycle type do riders prefer?
 
 
-### 1. Number of Trips 
+### 1. What is the total number of rides for all trips and by riders type?
 After cleaning our dataset, we have: <br/>
 Total Rides -  5,137,290 <br/>
 Annual Members - 2,885,196 <br/>
 Casual Riders - 2,252,094 <br/>
 
-### 2. Duration of Rides 
+### 2. On average, how long do riders rent out the bicycles? 
 We show the average ride duration for each rider type. <br/>
 Total Average Ride Duration - 17:38 <br/>
 Annual Members - 12:57 <br/>
@@ -147,7 +147,7 @@ Weekends - High usage (10:00am - 8:00pm) <br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(4).png)
 
-### 4. Start and End Station 
+### 4. What are the top 10 start and end stations? 
 Here are the most used start and end destinations for trips. <br/>
 
 <ins>Top 10 Start Stations</ins> <br/>
@@ -178,7 +178,7 @@ Here are the most used start and end destinations for trips. <br/>
 
 ![Alt Text]()
 
-5. Bike Preference
+### 5. Which bicycle type do riders prefer?
 
 Preferred Bike Type - Classic Bike <br/>
 Here's a chart showing bike preference amongst various users. We can see the Classic Bike is the most used and preferred bike type.
@@ -218,12 +218,12 @@ Annual Members:
 * November, here we see a drop in the number of rides, here we can convince them to renew as annual members with a discoutned rate.
 
 
-3. Members-only bike rental window based on daily heat maps/Bike Preference
+3. <ins>Members-only bike rental window based on daily heat maps/Bike Preference</ins>
 
 Based on our daily heatmap, we notice a peak period during the weekdays where annual members are using bikes more as compared to casual riders. From that, we give priorty access to our most used bike - classic bike to only members. We make classic bikes exclusively annual members only during the peak periods in the weekday. 
 
 
-4. Targeted Advertisment at most used start and end stations during peak periods
+4. <ins>Targeted Advertisment at most used start and end stations during peak periods</ins>
 
 Based on our top 10 casual riders start and destination stations, we run advertisement during peak yearly periods showing the perks of being an annual member and offer discounted rates from signups off the ads.
 
