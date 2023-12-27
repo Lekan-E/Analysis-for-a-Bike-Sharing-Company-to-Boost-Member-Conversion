@@ -116,7 +116,7 @@ Preferred Month - July<br/>
 Annual Members - September<br/>
 Casual Riders - July<br/>
 
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/No.%20of%20Rides%20by%20Month.png)
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/e599f8615fc7722c466c771aa6b8d7ae909fabce/Images/Misc/download.png)
 
 Weekly Trend <br/>
 From the histogram below we see there's a higher usage during the weekends, especially from the casual riders. <br/>
@@ -190,17 +190,13 @@ Here's a chart showing bike preference amongst various users. We can see the Cla
 
 1. Create a reward milestone program - Here users collect points from daily trips. The point collect system will be based of the daily heat map usage shown below. <br/>
 
-Annual Members: <br/>
-2 points for trips outside peak periods <br/>
-3 points for trips during peak period. <br/>
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/74927bd4c7dd5f3bb5032bc6468b2e75b8521c08/Images/Misc/download%20(3).png)
+Annual Members: 
+* 2 points for trips outside peak periods 
+* 3 points for trips during peak period
 
 Casual Riders:
-1 point for trips outside peak periods <br/>
-2 points for trips during peak period. <br/>
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/74927bd4c7dd5f3bb5032bc6468b2e75b8521c08/Images/Misc/download%20(4).png)
+* 1 point for trips outside peak periods 
+* 2 points for trips during peak period
 
 Riders can use accumulated points for:
 * Discounted trips 50%: Members, 5%: Casual Riders
@@ -208,11 +204,11 @@ Riders can use accumulated points for:
 * Free 30 minutes rides on public holidays for annual members
 * Free 15 minutes rides on public holidays for casual riders
 
-The aim is to convert casual riders by showing them perks of being an annual member whilst alos encourage members to renew membership. <br/>
+The aim is to convert casual riders by showing them perks of being an annual member whilst also encourage members to renew membership. <br/>
 
 2. Provide discounted annual rates for signing up outside busy periods 
 Based on the yearly ride chart, we can offer casual riders discounted annual rates for new signups and also for renewing annual memberships where we see a hike or drop in the number of rides. <br/>
-Using the plot below, we can offer these promotions to:
+
 Casual Riders:
 * December and April. Here we have an increased number in usage, and that can potentially be converted into annual members.
 * July and September. Here we see a drop in the number of rides, here we can convince them to signup as annual members with a discoutned rate.
