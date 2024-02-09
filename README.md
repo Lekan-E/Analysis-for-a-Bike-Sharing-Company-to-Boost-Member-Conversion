@@ -1,11 +1,11 @@
-# Comparative-Analysis-Project
-A customer analysis study for a bike-sharing company to better understand how members and casual riders uses the bike and provide recommendations to convert casual riders to annual members.
+# Customer-Analysis-Project
+A customer analysis study for a bike-sharing company to better understand how members and casual riders use the bike and provide recommendations to convert casual riders to annual members.
 
 ## Overview
-This is a case-study for a bike-sharing company that provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes with a fleet of 5,824 bicycles including (Electric, Classic and Docked Bikes) which are located in a network of 692 stations across Chicago. Bicycles can begin at a station and be returned to any station. <br />
+This is a case study for a bike-sharing company that provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes with a fleet of 5,824 bicycles including (Electric, Classic and Docked Bikes) which are located in a network of 692 stations across Chicago. Bicycles can begin at a station and be returned to any station. <br />
 
-## Businesss Task
-The director of marketing has tasked me to come up with strategies aimed at converting exisiting casual riders to annual members. To do that the marketing team needs to better understand riders differ. For us to achieve this, we need to study both customer's needs, behaviours and understand the pattern. <br />
+## Business Task
+The marketing director has tasked me to develop strategies aimed at converting existing casual riders to annual members. To do that the marketing team needs to understand better riders differ. To achieve this, we need to study both customers' needs, behaviours and understand the pattern. <br />
 This involves studying:
 * Number of Trips
 * Duration of Rides
@@ -14,17 +14,17 @@ This involves studying:
 * Bike Preference
 <br />
 
-I will be providng data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
+I will be providing data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
 Check out the Jupyter Notebook for an in-depth breakdown of the codes used in our analysis.
 
 ## Methodology
 ### Python Libraries
-The libraries used on this project include:
+The libraries used in this project include:
 * Pandas – For storing and manipulating structured data. Pandas functionality is built on NumPy
-* Numpy – For multi-dimensional array, matrix data structures and, performing mathematical operations
+* Numpy – For multi-dimensional arrays, matrix data structures and, performing mathematical operations
 * Datetime -  To extract date and time information
 * Plotly, Matplotlib and Seaborn – For all visualizations (including maps and graphs)
-* Geopy – To calcuate distance between positions
+* Geopy – To calcuate the distance between positions
 * Scipy - To check and improve skewness
 
 ## Dataset
@@ -39,20 +39,20 @@ My first step of data preparation was to import all data and combine all into a 
 
 We then explore our dataset using the following pandas functions:
 * df_months.info() - Display the number of rows, row names and the row type
-* df_months.describe() - Get Descriptive stats of the dataframe
-* df_months.sample() - Explore rows in the dataframe using sample, to randomize the outcome
+* df_months.describe() - Get Descriptive stats of the data frame
+* df_months.sample() - Explore rows in the data frame using sample, to randomize the outcome
 * df_months.shape - Get the total number of rows and columns
 
-After data exploration, we begin prepocessing our dataset. <br />
+After data exploration, we begin preprocessing our dataset. <br />
 
 ## Data Preprocessing
 This process involves creating and extracting new fields from our dataset. We achieved these using the following steps below:
-1. Convert 'started_at' and 'ended_at' into a datetime type using pandas function.
-2. Calculate 'ride_duration' = 'ended_at' - 'started_at' and convert the field to seconds using datetime function.
+1. Convert 'started_at' and 'ended_at' into a DateTime type using the pandas function.
+2. Calculate 'ride_duration' = 'ended_at' - 'started_at' and convert the field to seconds using the datetime function.
 3. Extract the start and end times using datetime functions - dt.strftime.
 4. Extract the day and month/year name 
-5. Given the start and end latitude and longitude, we join them into a list as start and end positions.
-6. With the start and end positions, we write a function to calculate each trips distance. <br />
+5. Given the start and end latitude and longitude, we join them into a list of start and end positions.
+6. With the start and end positions, we write a function to calculate each trip distance. <br />
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/Screenshot%202023-12-25%20at%201.19.35%E2%80%AFAM.png)
 
@@ -62,13 +62,13 @@ Now we begin data cleaning.
 This process is divided into two parts:
 
 1. <ins>Eliminate bad data:</ins>
-The conditions we set to filter out bad data is: 
+The conditions we set to filter out bad data are: 
 * Ride Duration <= 0 seconds
 * Trip Distance < 0 kilometers
 
 2. <ins>Remove outliers:</ins>
 Our focus on dropping outliers was on the ride durations(s) using the below steps:
-* Plot a box-plot to show the distribution of our time data.
+* Plot a box plot to show the distribution of our time data.
 * Find the appropriate percentile (For this I decided to go with the 95th percentile because it gives a better representation of our data)
 * Get the upper and lower limit
 * Filter out data below the lower limit and above the upper limit.
@@ -77,16 +77,16 @@ After data cleaning, we dropped bad data from 5,738,812 to 5,137,290 rides ~ 10.
 
 ## Filling NaN values
 Another major problem we had was missing values, occurring in the station names and IDs. <br />
-To achieved this, I sorted the latitude and longitude values in ascending values, then performed a forward fill.
+To achieve this, I sorted the latitude and longitude values in ascending values, and then performed a forward fill.
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/Screenshot%202023-12-25%20at%201.36.54%E2%80%AFAM.png)
 
 ## Exploratory Data Analysis/ Findings
 Now that our raw dataset has been cleaned, we can start with our data analysis. <br/>
 The analysis will be done for all rides, which is ideal for stakeholders. Then we perform further analysis to study annual members and casual riders.
-My aim in the anaysis stage is to answer the following questions:
+My aim in the analysis stage is to answer the following questions:
 
-    1. What is the total number of rides for all trips and by riders type?
+    1. What is the total number of rides for all trips and by rider type?
     2. On average, how long do riders rent out the bicycles?
     3. How do riders use the bicycles all year long?
     4. What day of the week do riders prefer?
@@ -95,7 +95,7 @@ My aim in the anaysis stage is to answer the following questions:
     7. Which bicycle type do riders prefer?
 
 
-### 1. What is the total number of rides for all trips and by riders type?
+### 1. What is the total number of rides for all trips and by rider type?
 After cleaning our dataset, we have: <br/>
 Total Rides -  5,137,290 <br/>
 Annual Members - 2,885,196 <br/>
@@ -132,17 +132,17 @@ This analysis can help back my assumption that:
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(2).png)
 
 <ins>Daily Usage</ins> <br/>
-We use a 24-hr heatmap to show what time of the day riders use the bikes the most. <br/>
+We use a 24-hour heatmap to show what time of the day riders use the bikes the most. <br/>
 
 From our annual member heatmap below, we can see a pattern: <br/>
-Weekdays - Moderate usage in the morning (6:00 - 9:00am) and a high usage (3:00 - 7pm) <br/>
-Weekends - Moderate usage (10:00am - 7pm) <br/>
+Weekdays - Moderate usage in the morning (6:00 - 9:00 am) and a high usage (3:00 - 7 pm) <br/>
+Weekends - Moderate usage (10:00 am - 7 pm) <br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(3).png)
 
 For casual riders: <br/>
-Weekdays - Moderate usage (4:00pm - 8:00pm) <br/>
-Weekends - High usage (10:00am - 8:00pm) <br/>
+Weekdays - Moderate usage (4:00 pm - 8:00 pm) <br/>
+Weekends - High usage (10:00 am - 8:00 pm) <br/>
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/download%20(4).png)
 
