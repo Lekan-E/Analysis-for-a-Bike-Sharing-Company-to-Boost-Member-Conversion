@@ -1,4 +1,4 @@
-# Customer-Analysis-Project
+# Customers-Analysis-Project
 A customer analysis study for a bike-sharing company to better understand how members and casual riders use the bike and provide recommendations to convert casual riders to annual members.
 
 ## Overview
