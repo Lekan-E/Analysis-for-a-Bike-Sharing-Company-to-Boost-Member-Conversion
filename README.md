@@ -208,6 +208,4 @@ Casual Riders Dashbaord:
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
 
-# Conclusion/Findings
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
+![Alt Text](https://github.com/Lekan-E/Customers-Analysis-Project/blob/main/Images/Dashboard/Forecasting%20Dashboard.png)
