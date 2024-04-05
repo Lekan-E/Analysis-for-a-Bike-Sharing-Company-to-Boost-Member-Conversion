@@ -1,17 +1,15 @@
-# Comparative-Analysis-Project
- A customer analysis dashboard for a bike-sharing company to better understand how members and casual riders uses the bike and differ.
+# Ride Analysis for a Bike-Sharing Company
+ A customer analysis for a bike-sharing company to better understand how members and casual riders uses the bike and differ.
 
 ## Overview
 This is a case study for a bike-sharing company that provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes with a fleet of 5,824 bicycles including (Electric, Classic and Docked Bikes) which are located in a network of 692 stations across Chicago. Bicycles can begin at a station and be returned to any station. <br />
 
 ## Business Task
-The marketing director has tasked me to develop strategies aimed at converting existing casual riders to annual members. To do that the marketing team needs to understand better riders differ. To achieve this, we need to study both customers' needs, behaviours and understand the pattern. <br />
-This involves studying:
-* Number of Trips
-* Duration of Rides
-* Time Preference by - Month, Week and Time of Day
-* Start and End Station
-* Bike Preference
+The business problems are the following:
+* To understand annual member and casual riders/customers behaviour and preference, i.e the number of trips taken, trip duration, bike type, time and days, start and end stations.
+* Create a regression or forecasting model to predict future number of rides.
+* Provide recommendations to convert casual riders to annual members.
+* How compnay can use digital media to influence casual riders to becmoe members.
 <br />
 
 I will be providing data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
@@ -42,44 +40,6 @@ We then explore our dataset using the following pandas functions:
 * df_months.describe() - Get Descriptive stats of the data frame
 * df_months.sample() - Explore rows in the data frame using sample, to randomize the outcome
 * df_months.shape - Get the total number of rows and columns
-
-After data exploration, we begin preprocessing our dataset. <br />
-
-## Data Preprocessing
-This process involves creating and extracting new fields from our dataset. We achieved these using the following steps below:
-1. Convert 'started_at' and 'ended_at' into a DateTime type using the pandas function.
-2. Calculate 'ride_duration' = 'ended_at' - 'started_at' and convert the field to seconds using the datetime function.
-3. Extract the start and end times using datetime functions - dt.strftime.
-4. Extract the day and month/year name 
-5. Given the start and end latitude and longitude, we join them into a list of start and end positions.
-6. With the start and end positions, we write a function to calculate each trip distance. <br />
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/Screenshot%202023-12-25%20at%201.19.35%E2%80%AFAM.png)
-
-Now we begin data cleaning.
-
-## Data Cleaning
-This process is divided into two parts:
-
-1. <ins>Eliminate bad data:</ins>
-The conditions we set to filter out bad data are: 
-* Ride Duration <= 0 seconds
-* Trip Distance < 0 kilometers
-
-2. <ins>Remove outliers:</ins>
-Our focus on dropping outliers was on the ride durations(s) using the below steps:
-* Plot a box plot to show the distribution of our time data.
-* Find the appropriate percentile (For this I decided to go with the 95th percentile because it gives a better representation of our data)
-* Get the upper and lower limit
-* Filter out data below the lower limit and above the upper limit.
-
-After data cleaning, we dropped bad data from 5,738,812 to 5,137,290 rides ~ 10.48% of bad data dropped.
-
-## Filling NaN values
-Another major problem we had was missing values, occurring in the station names and IDs. <br />
-To achieve this, I sorted the latitude and longitude values in ascending values, and then performed a forward fill.
-
-![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/d7ab47582f8f40033c9e0ee5408c784574d1fd6c/Images/Misc/Screenshot%202023-12-25%20at%201.36.54%E2%80%AFAM.png)
 
 ## Exploratory Data Analysis/ Findings
 Now that our raw dataset has been cleaned, we can start with our data analysis. <br/>
@@ -249,3 +209,5 @@ Casual Riders Dashbaord:
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
 
 # Conclusion/Findings
+
+![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
