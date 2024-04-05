@@ -204,8 +204,10 @@ Annual Members Dashboard:
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Members.png)
 
-Casual Riders Dashbaord:
+Casual Riders Dashboard:
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
+
+Forecasting Dashboard:
 
 ![Alt Text](https://github.com/Lekan-E/Customers-Analysis-Project/blob/main/Images/Dashboard/Forecasting%20Dashboard.png)
