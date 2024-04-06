@@ -15,6 +15,10 @@ The business problems are the following:
 I will be providing data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
 Check out the Jupyter Notebook for an in-depth breakdown of the codes used in our analysis.
 
+Forecasting Dashboard:
+
+![Alt Text](https://github.com/Lekan-E/Customers-Analysis-Project/blob/main/Images/Dashboard/Forecasting%20Dashboard.png)
+
 ## Methodology
 ### Python Libraries
 The libraries used in this project include:
@@ -208,6 +212,3 @@ Casual Riders Dashboard:
 
 ![Alt Text](https://github.com/Lekan-E/Comparative-Analysis-Project/blob/main/Images/Dashboard/Casuals.png)
 
-Forecasting Dashboard:
-
-![Alt Text](https://github.com/Lekan-E/Customers-Analysis-Project/blob/main/Images/Dashboard/Forecasting%20Dashboard.png)
