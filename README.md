@@ -1,4 +1,4 @@
-# Ride Analysis for a Bike-Sharing Company
+# Ride Analysis for a Bike-Sharing Company using Multi-Linear Regression
  A customer analysis for a bike-sharing company to better understand how members and casual riders uses the bike and differ.
 
 ## Overview
@@ -9,7 +9,7 @@ The business problems are the following:
 * To understand annual member and casual riders/customers behaviour and preference, i.e the number of trips taken, trip duration, bike type, time and days, start and end stations.
 * Create a regression or forecasting model to predict future number of rides.
 * Provide recommendations to convert casual riders to annual members.
-* How compnay can use digital media to influence casual riders to becmoe members.
+* How company can use digital media to influence casual riders to become members.
 <br />
 
 I will be providing data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
@@ -42,7 +42,7 @@ My first step of data preparation was to import all data and combine all into a 
 We then explore our dataset using the following pandas functions:
 * df_months.info() - Display the number of rows, row names and the row type
 * df_months.describe() - Get Descriptive stats of the data frame
-* df_months.sample() - Explore rows in the data frame using sample, to randomize the outcome
+* df_months.sample() - Explore rows in the data frame using the sample, to randomize the outcome
 * df_months.shape - Get the total number of rows and columns
 
 ## Exploratory Data Analysis/ Findings
