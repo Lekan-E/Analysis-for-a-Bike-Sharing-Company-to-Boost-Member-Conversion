@@ -33,7 +33,7 @@ The dataset was provided in the Google Data Analytics Capstone Project. It inclu
 
 ## Station Clusters
 Using k-means clustering, we were able to identify and group stations by demand.
-![Alt Text]
+![Alt Text](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-using-Multiple-Linear-Regression/blob/bf0613ecb7e5d1889564aa9e5bdc2c7b499d96bd/Images/Misc/Cluster%20of%20Top%20Stations.png)
 
 ### Summary
 The start station clustering results reveal four distinct clusters, each characterized by the total number of rides and the number of stations within each cluster. Here's a detailed breakdown:
