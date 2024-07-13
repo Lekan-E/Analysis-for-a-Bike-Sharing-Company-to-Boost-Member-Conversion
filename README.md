@@ -1,4 +1,4 @@
-# Ride Analysis for a Bike-Sharing Company using Multi-Linear Regression
+# Analysis for a Bike-Sharing Company using Machine Learning
  An analysis for a bike-sharing company to better understand how members and casual riders uses the bike and create station clusters to group the different stations using machine learning techniques. 
 
 ## Overview
