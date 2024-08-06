@@ -106,6 +106,7 @@ Stakeholder Dashboard:
 
 ## Outliers Analysis
 Outliers are critical data points that deviate significantly from the majority of data. Analyzing these outliers provides insights into potential data quality issues and unusual usage patterns. Our bike-sharing dataset contains 423,944 rows with outlier values, accounting for 7.39% of the total dataset. The analysis reveals that outliers in ride duration are predominantly from casual users, who not only account for the majority of outlier rides but also tend to have longer rides on average compared to members.
+![Alt Text](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-using-Machine-Learning/blob/c7d6ad96281ad9c300141f6bd78e07391e5e6610/Images/Misc/Ride%20Duration.png)
 
 ### Insights
 - Casual Riders: The discrepancy suggests that while the average casual ride duration is much lower, there are a few exceptionally long rides. These outliers could be due to special circumstances or rare usage patterns.
@@ -128,14 +129,8 @@ Seasonal Patterns: Casual riders show a peak in outlier rides during the warmer 
 The analysis reveals that casual riders are responsible for the majority of outliers, particularly during the afternoon and on weekends. Classic bikes are associated with the highest number of outliers, indicating potential usage or maintenance issues. Outliers are more frequent during the warmer months, reflecting higher overall ride activity.
 
 ### Recommendations
-Recommendations:
-
-Targeted Maintenance: Focus on improving the maintenance of classic bikes to reduce the number of outliers.
-
-Enhanced Monitoring: Increase monitoring during peak times (afternoon) and on weekends to identify and address issues promptly.
-
-User Engagement: Educate casual riders about proper bike usage to minimize long-duration outliers.
-
-Seasonal Adjustments: Prepare for higher outlier rates during warmer months by ensuring adequate resources and support are available.
-
-Station-Specific Strategies: Implement strategies at high-outlier stations like Streeter Dr & Grand Ave to manage and reduce outlier occurrences. By addressing these areas, we can improve data quality, enhance user experience, and optimize operational efficiency for the bike-sharing service.
+- Targeted Maintenance: Focus on improving the maintenance of classic bikes to reduce the number of outliers.
+- Enhanced Monitoring: Increase monitoring during peak times (afternoon) and on weekends to identify and address issues promptly.
+- User Engagement: Educate casual riders about proper bike usage to minimize long-duration outliers.
+- Seasonal Adjustments: Prepare for higher outlier rates during warmer months by ensuring adequate resources and support are available.
+- Station-Specific Strategies: Implement strategies at high-outlier stations like Streeter Dr & Grand Ave to manage and reduce outlier occurrences. By addressing these areas, we can improve data quality, enhance user experience, and optimize operational efficiency for the bike-sharing service.
