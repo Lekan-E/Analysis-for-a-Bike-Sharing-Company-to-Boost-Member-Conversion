@@ -25,13 +25,13 @@ The libraries used in this project include:
 * Folium, Matplotlib and Seaborn – For all visualizations (including maps and graphs)
 * Scikit learn - For Machine Learning tasks
 
+- Tableau for Visualization
 
 # Summary of Insights
 ## Station Clusters:
 Using k-means clustering algorithm, we can easily identify and cluster the stations into 4 different group based on customer usage. An ineractive Tableau dashboard can be found here, it gives more context to the stations in each cluster and the number of rides from each station during that time period.
 
-![Alt Text](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-using-Multiple-Linear-Regression/blob/bf0613ecb7e5d1889564aa9e5bdc2c7b499d96bd/Images/Misc/Cluster%20of%20Top%20Stations.png)
-
+![Alt Text](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-using-Machine-Learning/blob/8ec4442454ee18de52dd4d5969d6657bdb1ecce5/Images/Misc/Map%20Cluster.jpg)
 
 ### Summary
 The station clustering results reveal four distinct clusters, each characterized by the total number of rides and the number of stations within each cluster. Here's a detailed breakdown:
@@ -81,7 +81,7 @@ Stakeholder Dashboard:
 - The peak usage for both casual and member riders occurs in the summer months, particularly in July and August.
 - There is a noticeable drop in the number of rides during the winter months (December to February). This decline is more pronounced for casual riders compared to members.
 #### Weekly Observations
-- eekend Usage: Casual riders show significantly higher usage on weekends, with Saturday being the peak day. This suggests that casual riders are likely using the bikes for leisure and recreational purposes.
+- Weekend Usage: Casual riders show significantly higher usage on weekends, with Saturday being the peak day. This suggests that casual riders are likely using the bikes for leisure and recreational purposes.
 - Member Usage: Member riders exhibit a more consistent and high usage pattern throughout the week, with a notable peak on Wednesday. This indicates that members might be using the bike-sharing service for regular commuting.
 - Weekday Preferences: Members have high usage on Tuesday, Wednesday, Thursday, and Friday, reflecting a preference for using the service during workdays, likely for commuting.
 - Peak Usage: Both casual and member riders prefer biking in the afternoon, making it the busiest time of the day.
@@ -102,3 +102,40 @@ Stakeholder Dashboard:
 - Offer promotions and discounts specifically aimed at casual users on weekdays to balance the usage patterns and increase ridership during these days.
 - Implement loyalty programs or additional perks for members to encourage continued usage, especially on weekends.
 - Organize events or partner with local attractions and businesses on weekends to attract more casual users and potentially convert them into members.
+
+
+## Outliers Analysis
+Outliers are critical data points that deviate significantly from the majority of data. Analyzing these outliers provides insights into potential data quality issues and unusual usage patterns. Our bike-sharing dataset contains 423,944 rows with outlier values, accounting for 7.39% of the total dataset. The analysis reveals that outliers in ride duration are predominantly from casual users, who not only account for the majority of outlier rides but also tend to have longer rides on average compared to members.
+
+### Insights
+- Casual Riders: The discrepancy suggests that while the average casual ride duration is much lower, there are a few exceptionally long rides. These outliers could be due to special circumstances or rare usage patterns.
+- Members: Similarly, members also have a small number of exceptionally long rides, though their typical ride duration is shorter than that of casual riders. The long outlier rides for members may indicate different usage patterns or behaviors not captured by the typical ride duration.
+
+In summary, outliers have ride durations that are several times longer than the typical ride durations for both casual riders and members. This information can be useful for understanding rare but significant usage patterns
+
+Classic bikes have the highest number of outliers, with 204,274 rides. In comparison, docked bikes and electric bikes have fewer outliers, with 110,820 and 108,850 rides, respectively. This indicates that classic bikes might have a higher rate of issues or anomalies in the dataset compared to docked and electric bikes. This could be due to several factors, such as:
+- Usage Patterns: Classic bikes might be used more frequently or in different conditions that lead to more data anomalies.
+- Bike Maintenance: Classic bikes might require more maintenance or might be more prone to issues that could reflect as outliers in the data.
+
+- Insight: Docked bikes have the highest mean ride duration, suggesting that they are associated with longer trips compared to the other bike types.
+- Possible Reasons: This could indicate that docked bikes are used for longer journeys, possibly for commuting or travel between locations that are not easily reachable by shorter rides. It might also be indicative of users keeping docked bikes for extended periods.
+This analysis suggests that electric bikes tend to be used for shorter, more consistent trips, while classic and docked bikes are associated with longer and more varied ride durations, with classic bikes showing the greatest variability and number of long-duration rides.
+
+Outlier Trends by Time and Day: Weekends: Outliers are more common, with the highest numbers on Saturdays for both casual and member riders. Weekdays: Casual riders have more outliers on Mondays, while member riders see more on Tuesdays and Wednesdays. Time of Day: The afternoon sees the highest number of outliers for both casual and member riders, followed by night for casual riders and morning for members.
+
+Seasonal Patterns: Casual riders show a peak in outlier rides during the warmer months (May to September), with the highest in July. Members have a stable ride pattern throughout the year with minor peaks in the warmer months.
+
+The analysis reveals that casual riders are responsible for the majority of outliers, particularly during the afternoon and on weekends. Classic bikes are associated with the highest number of outliers, indicating potential usage or maintenance issues. Outliers are more frequent during the warmer months, reflecting higher overall ride activity.
+
+### Recommendations
+Recommendations:
+
+Targeted Maintenance: Focus on improving the maintenance of classic bikes to reduce the number of outliers.
+
+Enhanced Monitoring: Increase monitoring during peak times (afternoon) and on weekends to identify and address issues promptly.
+
+User Engagement: Educate casual riders about proper bike usage to minimize long-duration outliers.
+
+Seasonal Adjustments: Prepare for higher outlier rates during warmer months by ensuring adequate resources and support are available.
+
+Station-Specific Strategies: Implement strategies at high-outlier stations like Streeter Dr & Grand Ave to manage and reduce outlier occurrences. By addressing these areas, we can improve data quality, enhance user experience, and optimize operational efficiency for the bike-sharing service.
