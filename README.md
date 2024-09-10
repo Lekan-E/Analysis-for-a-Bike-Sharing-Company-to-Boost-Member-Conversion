@@ -1,4 +1,4 @@
-# Bike-Sharing Customer and Product Analysis using Machine Learning
+# Customer and Product Analysis using Machine Learning
  An analysis for a bike-sharing company to better understand how members and casual riders uses the bike and create station clusters to group the different stations using machine learning techniques. 
 
 ## Overview
@@ -6,23 +6,28 @@ This is a case study for a bike-sharing company that provides bicycles to annual
 
 ## Business Task
 The business problems are the following:
-* Descriptive Analysis - To understand annual member and casual riders/customers behaviour and preference, i.e the number of trips taken, trip duration, bike type, time and days, start and end stations.
-* Geospatial Analysis using K-Means Clustering - Create station clusters to identify and group the different stations based on number of rides ad peak times. The insights gained will aid in planning for station expansion, upgrades and many more.
-* Provide recommendations to convert casual riders to annual members.
+* Geospatial Analysis using K-Means Clustering - Create station clusters to identify and group the different stations both start and end stations based on number of rides and peak times. The insights gained will aid in planning for station expansion, upgrades and many more.
+    * Achieve an Inertia as close to 0 as possible and Silhoutte score as close to 1 to determine a sutiable K value.
 * Outliers Detection and Analysis - Investigate the outliers in the dataset and analyze the possible causes and provide recommendations.
+* Descriptive Analysis - To understand annual member and casual riders/customers behaviour and preference, i.e the number of trips taken, trip duration, bike type, time and days, start and end stations.
+* Provide recommendations to convert casual riders to annual members.
+
 <br />
 
-I will be providing data-driven recommendations and present the findings with a dashboard using Tableau, a JPG of the dashboard sheets will be provided below.
-Check out the Jupyter Notebook for an in-depth breakdown of the codes used in our analysis.
+## Dataset
+The data was collected from a Google capstone project on a month-month basis for a year, stored as a csv file.
 
+## Feature Engineering and Selection
+In order to utilise as much possible data, we need to perform the following:
+* Get total number of rides from each station
+* Extract the daily peak period (Morning, Afternoon, Night) from the ride start time.
 
 ## Methodology
 ### Python Libraries
 The libraries used in this project include:
 * Pandas – For storing and manipulating structured data. Pandas functionality is built on NumPy
 * Numpy – For multi-dimensional arrays, matrix data structures and, performing mathematical operations
-* Datetime -  To extract date and time information
-* Folium, Matplotlib and Seaborn – For all visualizations (including maps and graphs)
+* Matplotlib and Seaborn – For all visualizations (including maps and graphs)
 * Scikit learn - For Machine Learning tasks
 
 - Tableau for Visualization
