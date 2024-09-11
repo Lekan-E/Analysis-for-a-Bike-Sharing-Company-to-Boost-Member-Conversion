@@ -39,7 +39,7 @@ The libraries used in this project include:
 ## Station Clusters:
 Using k-means clustering algorithm, we can easily identify and cluster the stations into 4 different group based on customer usage. An ineractive Tableau dashboard can be found here, it gives more context to the stations in each cluster and the number of rides from each station during that time period.
 
-![Alt Text](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-using-Machine-Learning/blob/8ec4442454ee18de52dd4d5969d6657bdb1ecce5/Images/Misc/Map%20Cluster.jpg)
+![Alt Text](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/06788a030db97e051c6d8285381117158fbbcf9f/Images/Misc/Start%20Station%20Cluster.png)
 
 ### Summary
 The station clustering results reveal four distinct clusters, each characterized by the total number of rides and the number of stations within each cluster. Here's a detailed breakdown:
