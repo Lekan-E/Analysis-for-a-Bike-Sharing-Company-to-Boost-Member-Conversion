@@ -1,11 +1,0 @@
-end_station_name,end_station_id,count(ride_id),end_lat,end_lng,member_casual
-Lake Shore Dr & North Blvd,268,361201,41.91,"-87.62",casual
-Streeter Dr & Grand Ave,35,68715,41.8922,"-87.6121",casual
-Millennium Park,90,35297,41.8812,"-87.6241",casual
-Michigan Ave & Oak St,85,31908,41.9011,"-87.6235",casual
-Theater on the Lake,177,23738,41.9263,"-87.631",casual
-Shedd Aquarium,3,21583,41.8672,"-87.6153",casual
-Lake Shore Dr & Monroe St,76,19951,41.881,"-87.6168",casual
-Wells St & Concord Ln,289,19869,41.9121,"-87.6347",casual
-Lake Shore Dr & North Blvd,268,18292,41.9117,"-87.6268",casual
-Clark St & Lincoln Ave,141,17634,41.9158,"-87.6347",casual

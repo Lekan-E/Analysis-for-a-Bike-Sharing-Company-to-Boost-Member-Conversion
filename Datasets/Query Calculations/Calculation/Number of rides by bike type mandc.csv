@@ -1,7 +1,0 @@
-member_casual,rideable_type,count(ride_id)
-casual,Electric Bike,960881
-casual,Docked Bike,358395
-casual,Classic Bike,1258170
-member,Electric Bike,1084921
-member,Docked Bike,113606
-member,Classic Bike,1962839

@@ -1,11 +1,0 @@
-end_station_name,end_station_id,count(ride_id),end_lat,end_lng,member_casual
-Kedzie Ave & Foster Ave,470,364457,41.97,"-87.71",member
-Clark St & Elm St,176,26431,41.9031,"-87.631",member
-Wells St & Concord Ln,289,25163,41.9123,"-87.6347",member
-Kingsbury St & Kinzie St,133,24307,41.8896,"-87.6387",member
-Wells St & Elm St,182,22403,41.903,"-87.6343",member
-Dearborn St & Erie St,110,21392,41.894,"-87.6298",member
-St. Clair St & Erie St,211,20054,41.8938,"-87.6229",member
-Broadway & Barry Ave,300,19658,41.9376,"-87.6442",member
-Wells St & Huron St,53,19499,41.8948,"-87.6342",member
-Clinton St & Madison St,77,17698,41.8822,"-87.6411",member
