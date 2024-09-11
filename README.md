@@ -6,7 +6,7 @@ This is a case study for a bike-sharing company that provides bicycles to annual
 
 ## Business Task
 The business problems are the following:
-* Geospatial Analysis using K-Means Clustering - Create station clusters to identify and group the different stations both start and end stations based on number of rides and peak times. The insights gained will aid in planning for station expansion, upgrades and many more.
+* Geospatial Analysis using K-Means Clustering - Create station clusters to identify and group the different stations based on number of rides using the insights gained will aid in planning for station expansion, upgrades and many more.
     * Achieve an Inertia as close to 0 as possible and Silhoutte score as close to 1 to determine a sutiable K value.
 * Outliers Detection and Analysis - Investigate the outliers in the dataset and analyze the possible causes and provide recommendations.
 * Descriptive Analysis - To understand annual member and casual riders/customers behaviour and preference, i.e the number of trips taken, trip duration, bike type, time and days, start and end stations.
@@ -21,6 +21,9 @@ The data was collected from a Google capstone project on a month-month basis for
 In order to utilise as much possible data, we need to perform the following:
 * Get total number of rides from each station
 * Extract the daily peak period (Morning, Afternoon, Night) from the ride start time.
+
+## Model Selection and Training
+A range of algorithmns were selected from the scikit-learn library, including K-Means Nearest Neighbour and DBSCAN.
 
 ## Methodology
 ### Python Libraries
