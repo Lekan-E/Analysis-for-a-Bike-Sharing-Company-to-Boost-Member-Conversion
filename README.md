@@ -1,4 +1,4 @@
-# Customer and Product Analysis using Machine Learning
+# Customer, Product and Marketing Analysis for a Bike-Sharing Company
 
 ## Project Background
 Cyclistic is a bike-sharing company that offers access to over 9000+ bikes and 600+ stations across Chicago, providing a flexible and cost-effective solution for casual riders and annual member.
@@ -19,15 +19,14 @@ The Python Jupyter notebook to analyze the data using self-guided questions can 
 
 An interactive monthly Tableau dashboard can be found [here](https://public.tableau.com/app/profile/lekanelegbede/viz/HRDailyRidesDashboard/RideDashboard).
 
-Daily ride trackers can be found [here]()
+Daily ride trackers can be found [here](https://public.tableau.com/views/HRDailyRidesDashboard/TripDetails?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Data Structure & Final Data
 Cyclistic database structure as seen below consists of a single table with a total row count of 5,300,458 rides.
-
 To gain deeper insights, we need to collect/extract the following data:
-* Holiday Dates - Via webscraping we extracted the dates and events for the whole year
+* **Holiday Dates** - Via webscraping we extracted the dates and events for the whole year
     - Source: https://www.timeanddate.com/weather/usa/chicago/historic?month=1&year=2021
-* Weather: Collect hourly data for each day with over 8,785 records.
+* **Weather**: Collect hourly data for each day with over 8,785 records.
     - Source: (PAID) https://www.visualcrossing.com/weather/weather-data-services/Chicago,United%20States/metric/2020-12-01/2021-11-30
 
 ![Alt Text](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/9719f429419f7dddcc29019b758d4dd613a80558/Images/Misc/drawSQL-image-export-2024-09-27.png)
@@ -35,8 +34,20 @@ To gain deeper insights, we need to collect/extract the following data:
 Prior to beginning the analysis, a variety of data cleaning checks were conducted using statistical techniques for data accuracy and using the pricing schema from BIKE SHARE TORONTO to calculate trips revenue. The Python notebooks to inspect and perform quality checks can be found here.
 
 
-## Executive Findings
-Overview of Findings
+## Executive Summary
+#### Overview of Findings
+
+
+In analyzing last year's data, several key insights emerged. Revenue fluctuates significantly, with July and August being the peak months, generating over $2.8M each, while the winter months saw much lower revenues reaching a low of $130k. Summer was the most profitable season, particularly for casual riders, contributing to $6.2M in revenue. Casual riders produced higher revenue per trip ($5.89) compared to members ($2.06), with the highest revenue coming from electric bikes. Operational data showed the busiest periods were afternoons. Member riders use stations such as Rockwell St & 57th St frequently, while casual riders prefer popular tourist locations. However, 46 stations were underutilized, suggesting a need for relocation or rebalancing. The following sections will explore additional contributing factors and highlight key opportunities that will inform future budgeting, targeted promotions, and operational improvements to enhance service and profitability.
+
+
+Below is the yearly overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be viewed [here](https://public.tableau.com/app/profile/lekanelegbede/viz/UsersPerformanceDashboardGoogleCapstone/MainDashboard)
+
+### Monthly Trips Dashboard
+
+
+
+
 
 ## Business Task
 The business problems are the following:
