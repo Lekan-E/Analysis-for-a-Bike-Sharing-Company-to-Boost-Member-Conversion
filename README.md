@@ -1,8 +1,41 @@
 # Customer and Product Analysis using Machine Learning
- An analysis for a bike-sharing company to better understand how members and casual riders uses the bike and create station clusters to group the different stations using machine learning techniques. 
 
-## Overview
-This is a case study for a bike-sharing company that provides bicycles to annual members and casual riders which come as single-ride passes and full-day passes with a fleet of 5,824 bicycles including (Electric, Classic and Docked Bikes) which are located in a network of 692 stations across Chicago. Bicycles can begin at a station and be returned to any station. <br />
+## Project Background
+Cyclistic is a bike-sharing company that offers access to over 9000+ bikes and 600+ stations across Chicago, providing a flexible and cost-effective solution for casual riders and annual member.
+
+The company recorded over 5 million trips in the past year and are looking to capitalize on this data to improve operational efficiency, marketing efforts, resource allocation, and understand customer preferences and behaviour. This project thoroughly analyzes and synthesizes this data using various data analytical tools and Machine Learning alogrithm in order to uncover critical insights that will improve business process and boost membership conversion.
+
+Insights and recommendations are provided on the following key areas and departments:
+
+* Sales Trends Analysis: Evalutation of sales patterns, both members and casual riders, focusing on Revenue, Ride Volumne and Revenue per Ride.
+* Product Level Performance: An analysis of Cyclistic's various bike types, understanding user's perference and their impact on the number of rides, trip duration and the revenue generated.
+* Optimize Staffing and Maintenance: An assessment to improve operations efficiency by adjusting staffing and maintenace schedules to align with peak user demands.
+* Seasonal and Holiday Marketing Campaigns: A seasonal analysis to offer discounts and loyalty incentives to boost ridership and membership conversion by capitalizing on timed periods.
+* Targeted Marketing and Customer Engagement: An analysis for the marketing team, that targets campaigns at key time of the day and high-traffic regions designed to boost conversion.
+
+The Python Jupyter notebook utilized to clean, prepare and extract data can be found here.
+
+The Python Jupyter notebook to analyze the data using self-guided questions can be found here.
+
+An interactive monthly Tableau dashboard can be found here.
+
+
+## Data Structure & Final Data
+Cyclistic database structure as seen below consists of a single table with a total row count of 5,300,458 rides.
+
+To gain deeper insights, we need to collect/extract the following data:
+* Holiday Dates - Via webscraping we extracted the dates and events for the whole year
+    - Source: https://www.timeanddate.com/weather/usa/chicago/historic?month=1&year=2021
+* Weather: Collect hourly data for each day with over 8,785 records.
+    - Source: (PAID) https://www.visualcrossing.com/weather/weather-data-services/Chicago,United%20States/metric/2020-12-01/2021-11-30
+
+![Alt Text]()
+
+Prior to beginning the analysis, a variety of data cleaning checks were conducted using statistical techniques for data accuracy and using the pricing schema from BIKE SHARE TORONTO to calculate trips revenue. The Python notebooks to inspect and perform quality checks can be found here.
+
+
+## Executive Findings
+Overview of Findings
 
 ## Business Task
 The business problems are the following:
