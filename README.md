@@ -7,18 +7,19 @@ The company recorded over 5 million trips in the past year and are looking to ca
 
 Insights and recommendations are provided on the following key areas and departments:
 
-* Sales Trends Analysis: Evalutation of sales patterns, both members and casual riders, focusing on Revenue, Ride Volumne and Revenue per Ride.
-* Product Level Performance: An analysis of Cyclistic's various bike types, understanding user's perference and their impact on the number of rides, trip duration and the revenue generated.
-* Optimize Staffing and Maintenance: An assessment to improve operations efficiency by adjusting staffing and maintenace schedules to align with peak user demands.
-* Seasonal and Holiday Marketing Campaigns: A seasonal analysis to offer discounts and loyalty incentives to boost ridership and membership conversion by capitalizing on timed periods.
-* Targeted Marketing and Customer Engagement: An analysis for the marketing team, that targets campaigns at key time of the day and high-traffic regions designed to boost conversion.
+* **Sales Trends Analysis**: Evalutation of sales patterns, both members and casual riders, focusing on Revenue, Ride Volumne and Revenue per Ride.
+* **Product Level Performance**: An analysis of Cyclistic's various bike types, understanding user's perference and their impact on the number of rides, trip duration and the revenue generated.
+* **Optimize Staffing and Maintenance**: An assessment to improve operations efficiency by adjusting staffing and maintenace schedules to align with peak user demands.
+* **Seasonal and Holiday Marketing Campaigns**: A seasonal analysis to offer discounts and loyalty incentives to boost ridership and membership conversion by capitalizing on timed periods.
+* **Targeted Marketing and Customer Engagement**: An analysis for the marketing team, that targets campaigns at key time of the day and high-traffic regions designed to boost conversion.
 
 The Python Jupyter notebook utilized to clean, prepare and extract data can be found here.
 
 The Python Jupyter notebook to analyze the data using self-guided questions can be found here.
 
-An interactive monthly Tableau dashboard can be found here.
+An interactive monthly Tableau dashboard can be found [here](https://public.tableau.com/app/profile/lekanelegbede/viz/HRDailyRidesDashboard/RideDashboard).
 
+Daily ride trackers can be found [here]()
 
 ## Data Structure & Final Data
 Cyclistic database structure as seen below consists of a single table with a total row count of 5,300,458 rides.
@@ -29,7 +30,7 @@ To gain deeper insights, we need to collect/extract the following data:
 * Weather: Collect hourly data for each day with over 8,785 records.
     - Source: (PAID) https://www.visualcrossing.com/weather/weather-data-services/Chicago,United%20States/metric/2020-12-01/2021-11-30
 
-![Alt Text]()
+![Alt Text](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/9719f429419f7dddcc29019b758d4dd613a80558/Images/Misc/drawSQL-image-export-2024-09-27.png)
 
 Prior to beginning the analysis, a variety of data cleaning checks were conducted using statistical techniques for data accuracy and using the pricing schema from BIKE SHARE TORONTO to calculate trips revenue. The Python notebooks to inspect and perform quality checks can be found here.
 
