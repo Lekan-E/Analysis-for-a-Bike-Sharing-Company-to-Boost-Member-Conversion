@@ -62,14 +62,14 @@ Below is the yearly overview page from the Tableau dashboard and more examples a
 - The company has **46 underutilized stations** from 838 stations, with the total number ranging from 3 to 152 rides. Where the top 10 underutilized stations have fewer than 50 rides each, indicating **potential opportunities for resource reallocation or station relocation.**
 - Since electric bikes generate the highest revenue, prioritize their maintenance to minimize downtime, ensuring their availability for high-revenue casual riders, especially during weekends and holidays.
 
-![alt]()
+![alt](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/64d6d3a82eaf88c86dbd6b89976664e5c2ade799/Images/Misc/output.png)
 
 ### Targeted Marketing and Customer Engagement
 - Our analysis shows peak usage in the afternoons, particularly during weekends and holidays. Targeting marketing campaigns during these high-traffic times can maximize visibility and boost membership retention and conversion amongst casual riders.
 - Streeter Dr & Grand Ave was as the highest revenue generating over $420k. By **focusing campaigns the top 10 high-traffic areas each bringing in over $120k in revenue**, we can leverage existing customer interest and drive conversions among casual users.
 - Data indicates that favorable **weather conditions—such as warm and clear days—correlate with longer rides and increased revenue**. Tailoring marketing efforts to promote rides during these optimal weather conditions can boost customer participation and drive up conversions.
 
-![alt]()
+![alt](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/64d6d3a82eaf88c86dbd6b89976664e5c2ade799/Images/Misc/Rides%20by%20Region.png)
 
 # Recommendations:
 Based on the uncovered insights, the following recommendations for each department have been provided:
