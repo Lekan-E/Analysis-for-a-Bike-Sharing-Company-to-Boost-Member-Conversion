@@ -40,9 +40,9 @@ Prior to beginning the analysis, a variety of data cleaning checks were conducte
 In analyzing last year's data, several key insights emerged. Revenue fluctuates significantly, with July and August being the peak months, generating over $2.8M each, while the winter months saw much lower revenues reaching a low of $130k. Casual riders produced higher revenue per trip ($5.89) compared to members ($2.06), with the highest revenue coming from electric bikes. Operational data showed the busiest periods were afternoons. Member riders use stations such as Rockwell St & 57th St frequently, while casual riders prefer popular tourist locations. However, 46 stations were underutilized, suggesting a need for relocation or rebalancing. The following sections will explore additional contributing factors and highlight key opportunities that will inform future budgeting, targeted promotions, and operational improvements to enhance service and profitability.
 
 
-Below is the yearly overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be viewed [here](https://public.tableau.com/app/profile/lekanelegbede/viz/UsersPerformanceDashboardGoogleCapstone/MainDashboard)
+Below is the yearly overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be viewed [here](https://public.tableau.com/app/profile/lekanelegbede/viz/HRDailyRidesDashboard/RideDashboard)
 
-![alt text](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/12bdfb4335ae27fd459d3ecfdd7fdbd44c9830f5/Images/Dashboard/Main%20Dashboard.png)
+![alt text](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/12231dcfcd7f969f99256c7bf1d1af14b5755cd9/Images/Misc/Sales%20Trends.png)
 
 ### Sales Trends
 - The company's peak revenue occurred during July and August, each generating over $2.8M. In contrast, February saw the lowest revenue at $130k, highlighting the seasonality of demand. The data shows the importance of **strategic pricing and promotions to counter revenue dips in colder months.**
@@ -55,6 +55,8 @@ Below is the yearly overview page from the Tableau dashboard and more examples a
 - The classic bikes had the highest number of rides overall, but **electric bikes were favored by casual riders, especially during weekends and holidays**, accounting for longer trips and higher spend per ride. Docked bikes accounted to less than 5% of the total trips despite having the longest average duration.
 - **50% of the company's revenue were from classic bikes** bringing in $9.1M total, followed by electric bikes at $7.36 million. Docked bikes accounted for $2.15 million. These findings emphasize the need to **focus on classic and electric bike offerings, potentially expanding their availability to enhance overall revenue**.
 - Electric bikes were a key driver of higher revenue per ride, making them a profitable option to expand, especially for casual riders during peak demand periods.
+
+![alt]()
 
 ### Optimizing Staffing and Maintenance
 - Staffing and maintenance should be ramped up during the high-demand periods such as the summer months and the weekends, when revenue exceeded $3.9M. These periods requires more frequent bike checks and quicker turnarounds to meet increased rider activity. **Staff shifts should align with these time slots** to handle higher rider volumes and perform routine bike maintenance efficiently.
@@ -81,38 +83,3 @@ Based on the uncovered insights, the following recommendations for each departme
 - Customer Insights: To enhance customer engagement and drive conversions, we recommend **leveraging favorable weather and weekends for special offers**, optimizing routes based on rider preferences, and **implementing flexible pricing strategies** to encourage casual users to transition to memberships.
 
 - Finance: To maximize revenue, we recommend **investing in high-performing stations to enhance services**, and prioritizing resources towards classic and electric bikes, which have demonstrated significant profitability.
-
-
-
-
-
-## Outliers Analysis
-Our bike-sharing dataset contains 423,944 rows with outlier values, accounting for 7.39% of the total dataset. The analysis reveals that outliers in ride duration are predominantly from casual users, who not only account for the majority of outlier rides but also tend to have longer rides on average compared to members.
-![Alt Text](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-using-Machine-Learning/blob/c7d6ad96281ad9c300141f6bd78e07391e5e6610/Images/Misc/Ride%20Duration.png)
-
-### Insights
-- Casual Riders: The discrepancy suggests that while the average casual ride duration is much lower, there are a few exceptionally long rides. These outliers could be due to special circumstances or rare usage patterns.
-- Members: Similarly, members also have a small number of exceptionally long rides, though their typical ride duration is shorter than that of casual riders. The long outlier rides for members may indicate different usage patterns or behaviors not captured by the typical ride duration.
-
-In summary, outliers have ride durations that are several times longer than the typical ride durations for both casual riders and members. This information can be useful for understanding rare but significant usage patterns
-
-Classic bikes have the highest number of outliers, with 204,274 rides. In comparison, docked bikes and electric bikes have fewer outliers, with 110,820 and 108,850 rides, respectively. This indicates that classic bikes might have a higher rate of issues or anomalies in the dataset compared to docked and electric bikes. This could be due to several factors, such as:
-- Usage Patterns: Classic bikes might be used more frequently or in different conditions that lead to more data anomalies.
-- Bike Maintenance: Classic bikes might require more maintenance or might be more prone to issues that could reflect as outliers in the data.
-
-- Insight: Docked bikes have the highest mean ride duration, suggesting that they are associated with longer trips compared to the other bike types.
-- Possible Reasons: This could indicate that docked bikes are used for longer journeys, possibly for commuting or travel between locations that are not easily reachable by shorter rides. It might also be indicative of users keeping docked bikes for extended periods.
-This analysis suggests that electric bikes tend to be used for shorter, more consistent trips, while classic and docked bikes are associated with longer and more varied ride durations, with classic bikes showing the greatest variability and number of long-duration rides.
-
-Outlier Trends by Time and Day: Weekends: Outliers are more common, with the highest numbers on Saturdays for both casual and member riders. Weekdays: Casual riders have more outliers on Mondays, while member riders see more on Tuesdays and Wednesdays. Time of Day: The afternoon sees the highest number of outliers for both casual and member riders, followed by night for casual riders and morning for members.
-
-Seasonal Patterns: Casual riders show a peak in outlier rides during the warmer months (May to September), with the highest in July. Members have a stable ride pattern throughout the year with minor peaks in the warmer months.
-
-The analysis reveals that casual riders are responsible for the majority of outliers, particularly during the afternoon and on weekends. Classic bikes are associated with the highest number of outliers, indicating potential usage or maintenance issues. Outliers are more frequent during the warmer months, reflecting higher overall ride activity.
-
-### Recommendations
-- Targeted Maintenance: Focus on improving the maintenance of classic bikes to reduce the number of outliers.
-- Enhanced Monitoring: Increase monitoring during peak times (afternoon) and on weekends to identify and address issues promptly.
-- User Engagement: Educate casual riders about proper bike usage to minimize long-duration outliers.
-- Seasonal Adjustments: Prepare for higher outlier rates during warmer months by ensuring adequate resources and support are available.
-- Station-Specific Strategies: Implement strategies at high-outlier stations like Streeter Dr & Grand Ave to manage and reduce outlier occurrences. By addressing these areas, we can improve data quality, enhance user experience, and optimize operational efficiency for the bike-sharing service.
