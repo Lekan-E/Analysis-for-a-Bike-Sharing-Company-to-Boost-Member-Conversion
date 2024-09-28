@@ -1,9 +1,9 @@
-# Customer, Product and Marketing Analysis for a Bike-Sharing Company
+# Analysis for Optimizing Bike-Sharing Operations and Boosting Revenue Conversion
 
 ## Project Background
 Cyclistic is a bike-sharing company that offers access to over 9000+ bikes and 600+ stations across Chicago, providing a flexible and cost-effective solution for casual riders and annual member.
 
-The company recorded over 5 million trips in the past year and are looking to capitalize on this data to improve operational efficiency, marketing efforts, resource allocation, and understand customer preferences and behaviour. This project thoroughly analyzes and synthesizes this data using various data analytical tools and Machine Learning alogrithm in order to uncover critical insights that will improve business process and boost membership conversion.
+The company recorded over 5 million trips in the past year and are looking to capitalize on this data to improve operational efficiency, marketing efforts, resource allocation, and understand customer preferences and behaviour. This project thoroughly analyzes and synthesizes this data using various data analytical tools and Machine Learning algorithm in order to uncover critical insights that will improve business process and boost membership conversion.
 
 Insights and recommendations are provided on the following key areas and departments:
 
@@ -28,6 +28,7 @@ To gain deeper insights, we need to collect/extract the following data:
     - Source: https://www.timeanddate.com/weather/usa/chicago/historic?month=1&year=2021
 * **Weather**: Collect hourly data for each day with over 8,785 records.
     - Source: (PAID) https://www.visualcrossing.com/weather/weather-data-services/Chicago,United%20States/metric/2020-12-01/2021-11-30
+* **Pricing Schema**: We used a similar pricing as BIKE SHARE TORONTO to generate our revenue.
 
 ![Alt Text](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/9719f429419f7dddcc29019b758d4dd613a80558/Images/Misc/drawSQL-image-export-2024-09-27.png)
 
