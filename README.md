@@ -49,14 +49,14 @@ Below is the yearly overview page from the Tableau dashboard and more examples a
 - Casual riders drove ride volume in the summer months, contributing to higher revenue. **Winter months saw a sharp decline in rides for both casual and member riders**, suggesting the need for targeted efforts during the off-season to maintain consistent usage.
 - The casual riders generated significantly higher revenue per trip ($5.89) compared to members ($2.06). This discrepancy suggests a need to explore pricing strategies and promotions that could encourage casual riders to convert to memberships.
 
-![alt text](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/12231dcfcd7f969f99256c7bf1d1af14b5755cd9/Images/Misc/Sales%20Trends.png)
+![alt text](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/460b92cf5fc9b2e6fdeda62d41bcf329710c012a/Images/Misc/correlation.png)
 
 ### Product Level Performance
 - The classic bikes had the highest number of rides overall, but **electric bikes were favored by casual riders, especially during weekends and holidays**, accounting for longer trips and higher spend per ride. Docked bikes accounted to less than 5% of the total trips despite having the longest average duration.
 - **50% of the company's revenue were from classic bikes** bringing in $9.1M total, followed by electric bikes at $7.36 million. Docked bikes accounted for $2.15 million. These findings emphasize the need to **focus on classic and electric bike offerings, potentially expanding their availability to enhance overall revenue**.
 - Electric bikes were a key driver of higher revenue per ride, making them a profitable option to expand, especially for casual riders during peak demand periods.
 
-![alt]()
+![alt](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/460b92cf5fc9b2e6fdeda62d41bcf329710c012a/Images/Misc/bikes.png)
 
 ### Optimizing Staffing and Maintenance
 - Staffing and maintenance should be ramped up during the high-demand periods such as the summer months and the weekends, when revenue exceeded $3.9M. These periods requires more frequent bike checks and quicker turnarounds to meet increased rider activity. **Staff shifts should align with these time slots** to handle higher rider volumes and perform routine bike maintenance efficiently.
