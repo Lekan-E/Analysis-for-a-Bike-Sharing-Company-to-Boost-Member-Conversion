@@ -49,6 +49,8 @@ Below is the yearly overview page from the Tableau dashboard and more examples a
 - Casual riders drove ride volume in the summer months, contributing to higher revenue. **Winter months saw a sharp decline in rides for both casual and member riders**, suggesting the need for targeted efforts during the off-season to maintain consistent usage.
 - The casual riders generated significantly higher revenue per trip ($5.89) compared to members ($2.06). This discrepancy suggests a need to explore pricing strategies and promotions that could encourage casual riders to convert to memberships.
 
+![alt text](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/12231dcfcd7f969f99256c7bf1d1af14b5755cd9/Images/Misc/Sales%20Trends.png)
+
 ### Product Level Performance
 - The classic bikes had the highest number of rides overall, but **electric bikes were favored by casual riders, especially during weekends and holidays**, accounting for longer trips and higher spend per ride. Docked bikes accounted to less than 5% of the total trips despite having the longest average duration.
 - **50% of the company's revenue were from classic bikes** bringing in $9.1M total, followed by electric bikes at $7.36 million. Docked bikes accounted for $2.15 million. These findings emphasize the need to **focus on classic and electric bike offerings, potentially expanding their availability to enhance overall revenue**.
@@ -60,10 +62,14 @@ Below is the yearly overview page from the Tableau dashboard and more examples a
 - The company has **46 underutilized stations** from 838 stations, with the total number ranging from 3 to 152 rides. Where the top 10 underutilized stations have fewer than 50 rides each, indicating **potential opportunities for resource reallocation or station relocation.**
 - Since electric bikes generate the highest revenue, prioritize their maintenance to minimize downtime, ensuring their availability for high-revenue casual riders, especially during weekends and holidays.
 
+![alt]()
+
 ### Targeted Marketing and Customer Engagement
 - Our analysis shows peak usage in the afternoons, particularly during weekends and holidays. Targeting marketing campaigns during these high-traffic times can maximize visibility and boost membership retention and conversion amongst casual riders.
 - Streeter Dr & Grand Ave was as the highest revenue generating over $420k. By **focusing campaigns the top 10 high-traffic areas each bringing in over $120k in revenue**, we can leverage existing customer interest and drive conversions among casual users.
 - Data indicates that favorable **weather conditions—such as warm and clear days—correlate with longer rides and increased revenue**. Tailoring marketing efforts to promote rides during these optimal weather conditions can boost customer participation and drive up conversions.
+
+![alt]()
 
 # Recommendations:
 Based on the uncovered insights, the following recommendations for each department have been provided:
