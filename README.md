@@ -1,4 +1,4 @@
-# Analysis for Optimizing Bike-Sharing Operations and Boosting Revenue Conversion
+# Analysis for Optimizing Bike-Sharing Operations and Boosting Member Conversion
 
 ## Project Background
 Cyclistic is a bike-sharing company that offers access to over 9000+ bikes and 600+ stations across Chicago, providing a flexible and cost-effective solution for casual riders and annual member.
