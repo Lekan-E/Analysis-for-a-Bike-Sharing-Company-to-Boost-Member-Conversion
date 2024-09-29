@@ -69,6 +69,14 @@ Below is the yearly overview page from the Tableau dashboard and more examples a
 
 ### Targeted Marketing and Customer Engagement
 - Our analysis shows peak usage in the afternoons, particularly during weekends and holidays. Targeting marketing campaigns during these high-traffic times can maximize visibility and boost membership retention and conversion amongst casual riders.
+- We identify that high-value casual riders are those would most likely convert to members. These are rides over 22 minutes long and $7.42 per trip. In our analysis we determine the following factors influence the length of those trips:
+    - Warmer temperatures
+    - Partially cloudy days
+    - Summer season
+    - Holidays
+    - Electric bikes
+    - Weekends.
+
 - Streeter Dr & Grand Ave was as the highest revenue generating over $420k. By **focusing campaigns the top 10 high-traffic areas each bringing in over $120k in revenue**, we can leverage existing customer interest and drive conversions among casual users.
 - Data indicates that favorable **weather conditions—such as warm and clear days—correlate with longer rides and increased revenue**. Tailoring marketing efforts to promote rides during these optimal weather conditions can boost customer participation and drive up conversions.
 
@@ -77,7 +85,7 @@ Below is the yearly overview page from the Tableau dashboard and more examples a
 # Recommendations:
 Based on the uncovered insights, the following recommendations for each department have been provided:
 
-- Marketing: To enhance ridership and conversion, we recommend focusing on late afternoon promotions in July and September, targeting high-traffic stations for membership campaigns, launching winter discounts, promoting electric bikes for casual riders, and **leveraging holidays deals with exclusive offers and event-based promotions**.
+- Marketing: To enhance ridership and conversion, we recommend focusing on late afternoon promotions in July and September, targeting high-traffic stations for membership campaigns, launching winter discounts, promoting electric bikes for casual riders, and **leveraging holidays deals with exclusive offers and event-based promotions**. Lastly, send membership promotional emails after high value casual rider trips, these are trips over 32 minutes.
 
 - Operations: To optimize operations, we recommend ***adjusting staffing and maintenance schedules to peak demand**, reassessing underutilized stations for better resource allocation, proactively managing fleet availability for weather changes, and **prioritizing maintenance for high-demand bikes** to enhance overall efficiency.
 
