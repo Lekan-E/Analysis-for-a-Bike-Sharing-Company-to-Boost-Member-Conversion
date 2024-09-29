@@ -69,15 +69,15 @@ Below is the yearly overview page from the Tableau dashboard and more examples a
 
 ### Targeted Marketing and Customer Engagement
 - Our analysis shows peak usage in the afternoons, particularly during weekends and holidays. Targeting marketing campaigns during these high-traffic times can maximize visibility and boost membership retention and conversion amongst casual riders.
-- We identify that high-value casual riders are those would most likely convert to members. These are rides over 22 minutes long and $7.42 per trip. In our analysis we determine the following factors influence the length of those trips:
-    - Warmer temperatures
+- We identify that **high-value casual riders are those would most likely convert to members**. These are rides over 22 minutes long and $7.42 per trip. In our analysis we determine the following factors influence the length of those trips:
+    - Warmer temperatures [20-30 degree celcius]
     - Partially cloudy days
-    - Summer season
+    - Summer season [June, July, August]
     - Holidays
     - Electric bikes
-    - Weekends.
+    - Weekends [Saturday and Sunday]
 
-- Streeter Dr & Grand Ave was as the highest revenue generating over $420k. By **focusing campaigns the top 10 high-traffic areas each bringing in over $120k in revenue**, we can leverage existing customer interest and drive conversions among casual users.
+- Streeter Dr & Grand Ave was the highest revenue generating over $420k. By **focusing campaigns at the top 10 high-traffic areas each bringing in over $120k in revenue**, we can leverage existing customer interest and drive conversions among casual users.
 - Data indicates that favorable **weather conditions—such as warm and clear days—correlate with longer rides and increased revenue**. Tailoring marketing efforts to promote rides during these optimal weather conditions can boost customer participation and drive up conversions.
 
 ![alt](https://github.com/Lekan-E/Customer-and-Product-Analysis-using-ML/blob/64d6d3a82eaf88c86dbd6b89976664e5c2ade799/Images/Misc/output.png)
