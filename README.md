@@ -7,6 +7,8 @@ The company recorded over 5 million trips in the past year and are looking to ca
 
 This project thoroughly analyzes and synthesizes this data using various data analytical tools and Machine Learning algorithm in order to uncover critical insights that will improve business process and boost membership conversion.
 
+Check out the questions used to guide the analysis for each department [HERE](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-to-Boost-Member-Conversion/blob/e381591eb6a9bccadd88b90b261f34e9027c598f/Guiding%20Questions.md)
+
 Insights and recommendations are provided on the following key areas and departments:
 
 * **Sales Trends Analysis**: Evalutation of sales patterns, both members and casual riders, focusing on Revenue, Ride Volume and Revenue per Ride.
@@ -15,7 +17,7 @@ Insights and recommendations are provided on the following key areas and departm
 * **Seasonal and Holiday Marketing Campaigns**: A seasonal analysis to offer discounts and loyalty incentives to boost ridership and membership conversion by capitalizing on timed periods.
 * **Targeted Marketing and Customer Engagement**: An analysis for the marketing team, that targets campaigns at key time of the day and high-traffic regions designed to boost conversion.
 
-Check out the questions used to guide the analysis [HERE]()
+
 
 The Python Jupyter notebook utilized to clean, prepare and extract data can be found [here](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-to-Boost-Member-Conversion/blob/39c0d6460c8e61f9506c2e7b95d4392f5fa97831/Data%20Cleaning%20and%20Preparation.ipynb).
 
