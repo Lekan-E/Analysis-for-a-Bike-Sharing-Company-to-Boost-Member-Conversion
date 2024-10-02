@@ -3,7 +3,9 @@
 ## Project Background
 Cyclistic is a bike-sharing company that offers access to over 9000+ bikes and 600+ stations across Chicago, providing a flexible and cost-effective solution for casual riders and annual member.
 
-The company recorded over 5 million trips in the past year and are looking to capitalize on this data to improve operational efficiency, marketing efforts, resource allocation, and understand customer preferences and behaviour. This project thoroughly analyzes and synthesizes this data using various data analytical tools and Machine Learning algorithm in order to uncover critical insights that will improve business process and boost membership conversion.
+The company recorded over 5 million trips in the past year and are looking to capitalize on this data to improve operational efficiency, marketing efforts, resource allocation, and understand customer preferences and behaviour. 
+
+This project thoroughly analyzes and synthesizes this data using various data analytical tools and Machine Learning algorithm in order to uncover critical insights that will improve business process and boost membership conversion.
 
 Insights and recommendations are provided on the following key areas and departments:
 
@@ -35,7 +37,14 @@ Prior to beginning the analysis, a variety of data cleaning checks were conducte
 # Executive Summary
 ### Overview of Findings
 
-In analyzing last year's data, several key insights emerged. Revenue fluctuates significantly, with July and August being the peak months, generating over $2.8M each, while the winter months saw much lower revenues reaching a low of $130k. Casual riders produced higher revenue per trip ($5.89) compared to members ($2.06), with the highest revenue coming from electric bikes. Operational data showed the busiest periods were afternoons. Member riders use stations such as Rockwell St & 57th St frequently, while casual riders prefer popular tourist locations. However, 46 stations were underutilized, suggesting a need for relocation or rebalancing. The following sections will explore additional contributing factors and highlight key opportunities that will inform future budgeting, targeted promotions, and operational improvements to enhance service and profitability.
+In analyzing last year's data, several key insights emerged. 
+- Revenue fluctuates significantly, with July and August being the peak months, generating over $2.8M each, while the winter months saw much lower revenues reaching a low of $130k. 
+- Casual riders produced higher revenue per trip ($5.89) compared to members ($2.06), with the highest revenue coming from electric bikes. 
+- Operational data showed the busiest periods were afternoons. 
+- Member riders use stations such as Rockwell St & 57th St frequently, while casual riders prefer popular tourist locations. 
+- 46 stations of the 520 were underutilized, suggesting a need for relocation or rebalancing. 
+
+The following sections will explore additional contributing factors and highlight key opportunities that will inform future budgeting, targeted promotions, and operational improvements to enhance service and profitability.
 
 
 Below is the yearly overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be viewed [here](https://public.tableau.com/app/profile/lekanelegbede/viz/HRDailyRidesDashboard/RideDashboard)
