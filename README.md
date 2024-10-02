@@ -13,16 +13,13 @@ Insights and recommendations are provided on the following key areas and departm
 * **Seasonal and Holiday Marketing Campaigns**: A seasonal analysis to offer discounts and loyalty incentives to boost ridership and membership conversion by capitalizing on timed periods.
 * **Targeted Marketing and Customer Engagement**: An analysis for the marketing team, that targets campaigns at key time of the day and high-traffic regions designed to boost conversion.
 
-The Python Jupyter notebook utilized to clean, prepare and extract data can be found here.
-
-The Python Jupyter notebook to analyze the data using self-guided questions can be found here.
-
+The Python Jupyter notebook utilized to clean, prepare and extract data can be found [here](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-to-Boost-Member-Conversion/blob/39c0d6460c8e61f9506c2e7b95d4392f5fa97831/Data%20Cleaning%20and%20Preparation.ipynb).
+The Python Jupyter notebook to analyze the data using self-guided questions can be found [here](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-to-Boost-Member-Conversion/blob/39c0d6460c8e61f9506c2e7b95d4392f5fa97831/Analyzing%20Bike-Sharing%20Data.ipynb).
 An interactive monthly Tableau dashboard can be found [here](https://public.tableau.com/app/profile/lekanelegbede/viz/HRDailyRidesDashboard/RideDashboard).
-
 Daily ride trackers can be found [here](https://public.tableau.com/views/HRDailyRidesDashboard/TripDetails?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Data Structure & Final Data
-Cyclistic database structure as seen below consists of a single table with a total row count of 5,300,458 rides.
+The data structure as seen below consists of a single table with a total row count of 5,300,458 rides.
 To gain deeper insights, we need to collect/extract the following data:
 * **Holiday Dates** - Via webscraping we extracted the dates and events for the whole year
     - Source: https://www.timeanddate.com/weather/usa/chicago/historic?month=1&year=2021
