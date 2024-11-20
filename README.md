@@ -1,5 +1,4 @@
-# Annual Analysis for Optimizing Operations and Boosting Customer Conversion
-
+# Analysis to Boost Customer Acquisition and Optimize Operations
 ## Project Background
 Cyclistic, a bike-sharing company, specializes in renting 3 different bike types (electric, classic and docked) at over 800 stations, providing service for casual riders and annual members. I'm partnering with the Head of Operations to extract insights and deliver recommendations to improve performance across sales, product and marketing teams.
 
