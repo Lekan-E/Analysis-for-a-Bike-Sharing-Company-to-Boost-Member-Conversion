@@ -1,7 +1,7 @@
 # Annual Analysis for Optimizing Operations and Boosting Customer Conversion
 
 ## Project Background
-Cyclistic is a bike-sharing company that offers access to over 9000+ bikes and 600+ stations across Chicago, providing a flexible and cost-effective solution for casual riders and annual member.
+Cyclistic, a bike-sharing company, specializes in renting 3 different bike types (electric, classic and docked) at over 800 stations, providing service for casual riders and annual members. I'm partnering with the Head of Operations to extract insights and deliver recommendations to improve performance across sales, product and marketing teams.
 
 ## Executive Summary
 Cyclistic's sales analysis of 5 million trips in 2021 reveals an annual revenue of approximately $18 million, with annual subscribed members contributing 58% of total rides. However, casual rides account for 68% of revenue ($12.5 million), highlighting an urgent need to address strategies aimed at converting casual riders into long-term annual members. Cyclistic can benefit from targeted marketing campaigns, optimizing product maintenance, understanding customer behaviours during peak seasons and optimizing operations. These efforts will be key to driving membership conversions in the following calendar year.
@@ -15,7 +15,6 @@ Insights and recommendations are provided on the following key areas and departm
 * **Optimize Staffing and Maintenance**: An assessment to improve operations efficiency by adjusting staffing and maintenace schedules to align with peak user demands.
 * **Seasonal and Holiday Marketing Campaigns**: A seasonal analysis to offer discounts and loyalty incentives to boost ridership and membership conversion by capitalizing on timed periods.
 * **Targeted Marketing and Customer Engagement**: An analysis for the marketing team, that targets campaigns at key time of the day and high-traffic regions designed to boost conversion.
-
 
 
 The Python Jupyter notebook utilized to clean, prepare and extract data can be found [here](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-to-Boost-Member-Conversion/blob/39c0d6460c8e61f9506c2e7b95d4392f5fa97831/Data%20Cleaning%20and%20Preparation.ipynb).
@@ -40,7 +39,7 @@ To gain deeper insights, we need to collect/extract the following data:
 Prior to beginning the analysis, a variety of data cleaning checks were conducted using statistical techniques for data accuracy and using the pricing schema from BIKE SHARE TORONTO to calculate trips revenue. The Python notebooks to inspect and perform quality checks can be found here.
 
 
-# Insights Deep-Dive
+## Insights Deep-Dive
 ### Overview of Findings
 
 In analyzing last year's data, several key insights emerged. 
