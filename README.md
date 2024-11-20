@@ -1,11 +1,10 @@
-# Analysis for Optimizing Bike-Sharing Operations and Boosting Member Conversion
+# Annual Analysis for Optimizing Operations and Boosting Customer Conversion
 
 ## Project Background
 Cyclistic is a bike-sharing company that offers access to over 9000+ bikes and 600+ stations across Chicago, providing a flexible and cost-effective solution for casual riders and annual member.
 
-The company recorded over 5 million trips in the past year and are looking to capitalize on this data to improve operational efficiency, marketing efforts, resource allocation, and understand customer preferences and behaviour. 
-
-This project thoroughly analyzes and synthesizes this data using various data analytical tools and Machine Learning algorithm in order to uncover critical insights that will improve business process and boost membership conversion.
+## Executive Summary
+Cyclistic's sales analysis of 5 million trips in 2021 reveals an annual revenue of approximately $18 million, with annual subscribed members contributing 58% of total rides. However, casual rides account for 68% of revenue ($12.5 million), highlighting an urgent need to address strategies aimed at converting casual riders into long-term annual members. Cyclistic can benefit from targeted marketing campaigns, optimizing product maintenance, understanding customer behaviours during peak seasons and optimizing operations. These efforts will be key to driving membership conversions in the following calendar year.
 
 Check out the questions used to guide the analysis for each department [HERE](https://github.com/Lekan-E/Analysis-for-a-Bike-Sharing-Company-to-Boost-Member-Conversion/blob/e381591eb6a9bccadd88b90b261f34e9027c598f/Guiding%20Questions.md)
 
@@ -41,7 +40,7 @@ To gain deeper insights, we need to collect/extract the following data:
 Prior to beginning the analysis, a variety of data cleaning checks were conducted using statistical techniques for data accuracy and using the pricing schema from BIKE SHARE TORONTO to calculate trips revenue. The Python notebooks to inspect and perform quality checks can be found here.
 
 
-# Executive Summary
+# Insights Deep-Dive
 ### Overview of Findings
 
 In analyzing last year's data, several key insights emerged. 
