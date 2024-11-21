@@ -1,6 +1,6 @@
 # Analysis to Boost Customer Acquisition and Optimize Operations
 ## Project Background
-Cyclistic, a bike-sharing company, specializes in renting 3 different bike types (electric, classic and docked) at over 800 stations, providing service for casual riders and annual members. I'm partnering with the Head of Operations to extract insights and deliver recommendations to improve performance across sales, product and marketing teams.
+Cyclistic, a bike-sharing company, specializes in renting 3 different bike types (electric, classic and docked) at over 800 stations, providing service for casual riders and annual members. I'm partnering with the Head of Operations to drive customer and revenue growth, optimize targeted marketing, maximize product performance and improve operational efficiency.
 
 ## Executive Summary
 Cyclistic's sales analysis of 5 million trips in 2021 reveals an annual revenue of approximately $18 million, with annual subscribed members contributing 58% of total rides. However, casual rides account for 68% of revenue ($12.5 million), highlighting an urgent need to address strategies aimed at converting casual riders into long-term annual members. Cyclistic can benefit from targeted marketing campaigns, optimizing product maintenance, understanding customer behaviours during peak seasons and optimizing operations. These efforts will be key to driving membership conversions in the following calendar year.
